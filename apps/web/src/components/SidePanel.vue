@@ -41,7 +41,7 @@
 <script setup lang="ts">
     import { XMarkIcon } from '@heroicons/vue/24/solid';
 
-    import IconButton from '@/components/IconButton.vue';
+    import IconButton from '@/components/Button/Icon.vue';
 
     interface IProps {
         title?: string;

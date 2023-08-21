@@ -11,7 +11,8 @@
         "lint": "turbo run lint",
         "format": "prettier --write .",
         "prepare": "husky install",
-        "deploy": "yarn run build && git add . && git commit -m f && git push && gh-pages -d apps/web/dist && rm -rf apps/web/dist"
+        "save": "git add . && git commit -m f && git push",
+        "deploy": "yarn run build && yarn run save && gh-pages -d apps/web/dist && rm -rf apps/web/dist"
     },
     "devDependencies": {
         "gh-pages": "^6.0.0",

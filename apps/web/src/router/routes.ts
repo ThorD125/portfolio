@@ -8,7 +8,7 @@ export const routes: RouteRecordRaw[] = [
     {
         path: '/portfolio/',
         alias: '/portfolio/home',
-        name: 'homepage',
+        name: 'home',
         component: Home,
     },
     {
