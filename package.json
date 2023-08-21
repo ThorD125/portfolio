@@ -11,8 +11,7 @@
         "lint": "turbo run lint",
         "format": "prettier --write .",
         "prepare": "husky install",
-        "predeploy": "yarn run build",
-        "deploy": "gh-pages -d apps/web/dist"
+        "deploy": "yarn run build && gh-pages -d apps/web/dist && rm -rf apps/web/dist"
     },
     "devDependencies": {
         "gh-pages": "^6.0.0",
