@@ -1,0 +1,23 @@
+{
+    "display": "Vue App",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "tests/**/*.ts",
+        "tests/**/*.tsx",
+        "components.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

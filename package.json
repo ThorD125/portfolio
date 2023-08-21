@@ -1,0 +1,37 @@
+{
+    "name": "Portfolio",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev --parallel",
+        "lint": "turbo run lint",
+        "format": "prettier --write .",
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "husky": "^8.0.2",
+        "lint-staged": "^13.1.0",
+        "prettier": "3.0.2",
+        "turbo": "^1.10.12",
+        "typescript": "^5.1.6",
+        "unplugin-vue-components": "^0.25.1"
+    },
+    "engines": {
+        "npm": ">=7.0.0",
+        "node": ">=14.0.0"
+    },
+    "packageManager": "yarn@1.22.5",
+    "lint-staged": {
+        "apps/**/*.{js,ts,jsx,tsx,md,vue}": [
+            "npx prettier --write"
+        ],
+        "*.json": [
+            "npx prettier --write"
+        ]
+    },
+    "license": "UNLICENSED"
+}
