@@ -6,24 +6,24 @@ import Home from '@/views/Home.vue';
 
 export const routes: RouteRecordRaw[] = [
     {
-        path: '/',
-        alias: '/home',
+        path: '/portfolio/',
+        alias: '/portfolio/home',
         name: 'homepage',
         component: Home,
     },
     {
-        path: '/access-denied',
+        path: '/portfolio/access-denied',
         name: 'accessDenied',
         component: AccessDenied,
     },
     {
-        path: '/404',
+        path: '/portfolio/404',
         name: '404',
         component: PathNotFound,
         props: true,
     },
     {
-        path: '/:pathMatch(.*)',
+        path: '/portfolio/:pathMatch(.*)',
         redirect: '404',
     },
 ];

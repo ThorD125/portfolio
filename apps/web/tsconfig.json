@@ -1,5 +1,5 @@
 {
-    "display": "Vue App",
+    "display": "Portfolio",
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
