@@ -1,5 +1,5 @@
 <template>
-    <div v-show="props.currentTab == props.tab">the {{ props.tab }}</div>
+    <div v-show="props.currentTab == props.tab"><slot></slot></div>
 </template>
 
 <script setup lang="ts">
