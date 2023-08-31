@@ -16,21 +16,14 @@
 
 <script lang="ts" setup>
 
-    import { ref, onMounted, watch } from 'vue';
+import { ref } from 'vue';
 
 
+const currentTab = ref('testa');
 
-    let currentTab = ref("nodefault");
-
-    onMounted(() => {
-      watch(currentTab, (newValue) => {
-        localStorage.setItem("currentTab", newValue);
-      });
-    });
-
-    const actualsettab = (element: string) => {
-        currentTab.value = element;
-    }
+const actualsettab = (e: string) => {
+    currentTab.value = e;
+}
 
 
 </script>
