@@ -1,18 +1,14 @@
 <template>
-    <div>
-        tab pane
-        {{ title }}
-    </div>
+    <div v-show="props.currentTab == props.tab">the {{ props.tab }}</div>
 </template>
 
 <script setup lang="ts">
-    interface IProps {
-        title: string;
-        show: boolean;
+    
+interface IProps {
+    tab: string;
+    currentTab: string;
     }
     const props = withDefaults(defineProps<IProps>(), {
-        title: 'No title provided',
-        show: false,
     });
 </script>
 
