@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="w-full h-fit" @click="emit('actualsettab', props.tab)">
+        <button class="w-full h-fit" :class="tab == currentTab ? 'font-semibold': ''" @click="emit('actualsettab', props.tab)">
         {{ props.tab }}  
         </button>
     </div>
@@ -14,6 +14,8 @@ import { ref } from 'vue';
 
 interface IProps {
     tab: string;
+    currentTab: string;
+    
     default?: boolean;
 }
 const props = withDefaults(defineProps<IProps>(), {

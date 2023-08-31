@@ -1,16 +1,18 @@
 <template>
 
     <div class="navbar flex flex-wrap h-full flex-col p-5">
-        <NavTab tab="Javascript" @actualsettab="actualsettab" />
-        <NavTab tab="CV" @actualsettab="actualsettab" :default="true" />
-        <NavTab tab="Python" @actualsettab="actualsettab" />
-        <NavTab tab="Bash" @actualsettab="actualsettab" />
+        <NavTab tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <NavTab tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
+        <NavTab tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <NavTab tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <NavTab tab="Contact" :currentTab="currentTab" @actualsettab="actualsettab" />
     </div>
     <div class="content h-full w-full p-5">
-        <TabContent tab="cv" :currentTab="currentTab"> <Cv /> </TabContent>
+        <TabContent tab="CV" :currentTab="currentTab"> <Cv /> </TabContent>
         <TabContent tab="Javascript" :currentTab="currentTab">Javascript</TabContent>
         <TabContent tab="Python" :currentTab="currentTab">Python</TabContent>
         <TabContent tab="Bash" :currentTab="currentTab">Bash</TabContent>
+        <TabContent tab="Contact" :currentTab="currentTab"> <Contact /> </TabContent>
     </div>
 </template>
 
@@ -19,7 +21,7 @@
 import { ref } from 'vue';
 
 
-const currentTab = ref('testa');
+const currentTab = ref('notabset');
 
 const actualsettab = (e: string) => {
     currentTab.value = e;
