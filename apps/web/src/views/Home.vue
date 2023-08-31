@@ -1,13 +1,15 @@
 <template>
 
     <div class="navbar flex flex-wrap h-full flex-col p-5">
-        <NavTab tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
+        <NavTab tab="test" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
+        <NavTab tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" />
         <NavTab tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" />
         <NavTab tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" />
         <NavTab tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" />
         <NavTab tab="Contact" :currentTab="currentTab" @actualsettab="actualsettab" />
     </div>
     <div class="content h-full w-full p-5">
+        <TabContent tab="test" :currentTab="currentTab">test</TabContent>
         <TabContent tab="CV" :currentTab="currentTab"> <Cv /> </TabContent>
         <TabContent tab="Javascript" :currentTab="currentTab">Javascript</TabContent>
         <TabContent tab="Python" :currentTab="currentTab">Python</TabContent>
