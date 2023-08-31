@@ -1,27 +1,35 @@
 <template>
 
     <div class="navbar flex flex-wrap h-full flex-col p-5">
-        <NavTab @settab="actualsettab('testa')">testa</NavTab>
-        <NavTab @settab="actualsettab('testb')">testb</NavTab>
-        <NavTab @settab="actualsettab('testc')">testc</NavTab>
+        <NavTab tab="testa" @actualsettab="actualsettab" :default="true" />
+        <NavTab tab="testb" @actualsettab="actualsettab" />
+        <NavTab tab="testc" @actualsettab="actualsettab" />
     </div>
     {{ currentTab }}
     <div class="content h-full w-full p-5">
-        <div v-show="currentTab == 'testa'">contenta</div>
-        <div v-show="currentTab == 'testb'">contentb</div>
-        <div v-show="currentTab == 'testc'">contentc</div>
+        <TabContent tab="testa" :currentTab="currentTab"/>
+        <TabContent tab="testb" :currentTab="currentTab"/>
+        <TabContent tab="testc" :currentTab="currentTab"/>
     </div>
 </template>
 
 <script lang="ts" setup>
-    import { ref } from 'vue';
 
     import NavTab from '@/components/Layout/Tabs/NavTab.vue';
 
-    const currentTab = ref('testa');
+    import { ref, onMounted, watch } from 'vue';
 
-    const actualsettab = (e: string) => {
-        currentTab.value = e;
+
+    let currentTab = ref("nodefault");
+
+    onMounted(() => {
+      watch(currentTab, (newValue) => {
+        localStorage.setItem("currentTab", newValue);
+      });
+    });
+
+    const actualsettab = (element: string) => {
+        currentTab.value = element;
     }
 
 
