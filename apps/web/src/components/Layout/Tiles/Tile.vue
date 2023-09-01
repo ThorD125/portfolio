@@ -7,9 +7,10 @@
 interface IProps {
     bgImage?: string;
     bgColor?: string;
-    url: string;
+    url?: string;
 }
 const props = withDefaults(defineProps<IProps>(), {
+    url: "unimplemented",
 });
 
 import theImage from "@/assets/images/test.jpg";
