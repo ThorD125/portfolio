@@ -1,12 +1,15 @@
 <template>
-    <TileGrid>
+    <!-- <TileGrid>
         <Tile bg-color="red" url="https://example.com">firsttile</Tile>
         <Tile :bg-image="TestImage" url="example.com">secondtile</Tile>
         <Tile bg-color="purple" url="example.com">3</Tile>
         <Tile bg-color="pink" url="example.com">fourht</Tile>
         <Tile>six</Tile>
         <Tile :bg-image="TestImage" url="example.com">eleven</Tile>
-    </TileGrid>
+    </TileGrid> -->
+    <div class="table">
+        sefs
+    </div>
 </template>
 
 <script setup lang="ts">
