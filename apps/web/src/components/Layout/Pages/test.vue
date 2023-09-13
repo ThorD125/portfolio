@@ -1,12 +1,12 @@
 <template>
-    <!-- <TileGrid>
+    <TileGrid>
         <Tile bg-color="red" url="https://example.com">firsttile</Tile>
         <Tile :bg-image="TestImage" url="example.com">secondtile</Tile>
         <Tile bg-color="purple" url="example.com">3</Tile>
         <Tile bg-color="pink" url="example.com">fourht</Tile>
         <Tile>six</Tile>
         <Tile :bg-image="TestImage" url="example.com">eleven</Tile>
-    </TileGrid> -->
+    </TileGrid>
     <TableGrid :headers="tableheaders">
         <TRow><TCol>hackypi</TCol><TCol><a href="https://shop.sb-components.co.uk/products/hackypi-compact-diy-usb-hacking-tool">hackypi-compact-diy-usb-hacking-tool</a></TCol></TRow>
         <TRow><TCol>Music punch bag</TCol><TCol><a href="https://www.amazon.com/ONEPUNCH-Machine-Electronic-Punching-Exercise/dp/B0BYF2QV1L">B0BYF2QV1L</a></TCol></TRow>
