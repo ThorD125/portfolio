@@ -2,12 +2,12 @@
     <div>
         <h2 class="text-2xl font-bold">Experiences</h2>
         <div>
-            <h2 class="text-2xl font-bold">Telivic</h2>
+            <h2 class="text-xl font-semibold">Telivic</h2>
             <p>juli-augustus 2022</p>
             <p>Ze hadden data van klanten in een database systeem die al 3 of vier keer werd samengevoegt met andere verkregen data, waardoor deze er soms 4 keer in zaten onder een andere naam of met oudere emails, mijn taak was dan om deze op te ruimen, hiernaast werkte ik ook nog aan hun crm om kleine dingen aan te passen om voor hen het proces van opdrachten of invoices sneller en gemakkelijker in te kunnen geven</p>
         </div>
         <div>
-            <h2 class="text-2xl font-bold">Otomaties - Tom Broucke</h2>
+            <h2 class="text-xl font-semibold">Otomaties - Tom Broucke</h2>
             <p>maart 2021</p>
             <p>https://tombroucke.be/</p>
             <p>Mijn opdrachten bestonden uit het ontwerpen van websites en deze in code omzetten en wordpress erop te integreren.</p>
@@ -68,16 +68,35 @@
     <div class="mt-3">
         <h2 class="text-2xl font-bold">plus points</h2>
         <div>
-            <p class="text-xl font-semibold mt-1">harde werker (aka workaholic)</p>
-            <p>ik werk liever savonds een uurtje verder dan een nieuwe function of iets dergelijks te laten liggen tot de dag erna</p>
+            <p class="text-xl font-semibold mt-1">Gedreven werker</p>
+            <p>Ik werk liever s'avonds een uurtje verder dan een nieuwe functie of iets dergelijks te laten liggen tot de dag erna.</p>
         </div>
         <div>
-            <p class="text-xl font-semibold mt-1">leergierig</p>
-            <p>als er iets die beter kan en ik zie dat niet zou ik liever hebben dat iemand me dit direct zegt dan dat ik dit achter men rug moet horen</p>
+            <p class="text-xl font-semibold mt-1">Leergierig</p>
+            <p>Ik leer graag nieuwe dingen of leer graag betere manieren kennen voor iets te doen.</p>
         </div>
         <div>
-            <p class="text-xl font-semibold mt-1">relaxed</p>
-            <p>als ik zeg dat iets af zal zijn zal ik zo veel mogelijk doen zodat dit als er geen externe factoren dit tegenhouden dit ook af zal zijn en dat u op 2 geruste oren kunst slapen</p>
+            <p class="text-xl font-semibold mt-1">Relaxed</p>
+            <p>Als ik zeg dat iets af zal zijn zal ik zo veel mogelijk doen zodat dit als er geen externe factoren dit tegenhouden dit ook af zal zijn en dat u op 2 geruste oren kunst slapen</p>
+        </div>
+    </div>
+    <div class="mt-3">
+        <h2 class="text-2xl font-bold">min points</h2>
+        <div>
+            <p class="text-xl font-semibold mt-1">Dislectisch</p>
+            <p>Ik doe mijn best maar er zitten waarschijnlijk veel schrijffouten in mijn teksten.</p>
+        </div>
+        <div>
+            <p class="text-xl font-semibold mt-1">Niet detail oriented</p>
+            <p>Ik werk liever snel een prototype af waarbij alles werkt, dan dat het er supergoed uitziet of dat het de meest geoptimaliseerde code is.</p>
+        </div>
+        <div>
+            <p class="text-xl font-semibold mt-1">Solitair</p>
+            <p>Ik geef er de voorkeur aan om zelfstandig te werken in plaats van in een groep.</p>
+        </div>
+        <div>
+            <p class="text-xl font-semibold mt-1">Sociale interactie</p>
+            <p>Het kost me enige tijd om volledig mijn ware zelf te tonen aan nieuwe kennissen of collega's.</p>
         </div>
     </div>
 </template>

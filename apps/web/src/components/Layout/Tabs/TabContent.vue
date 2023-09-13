@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full" v-show="props.currentTab == props.tab">
+    <div class="h-full overflow-y-scroll" v-show="props.currentTab == props.tab">
         <slot></slot>
     </div>
 </template>
