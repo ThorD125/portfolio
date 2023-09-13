@@ -1,5 +1,7 @@
 <template>
-    <div class="h-full" v-show="props.currentTab == props.tab"><slot></slot></div>
+    <div class="h-full" v-show="props.currentTab == props.tab">
+        <slot></slot>
+    </div>
 </template>
 
 <script setup lang="ts">
