@@ -1,12 +1,12 @@
 <template>
 
     <div class="navbar flex flex-wrap h-full flex-col p-5">
-        <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
-        <TabNav tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" />
-        <TabNav tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" />
-        <TabNav tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" />
-        <TabNav tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <!-- <TabNav tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
+        <TabNav tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
+        <!-- <TabNav tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
+        <!-- <TabNav tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
         <TabNav tab="Contact" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
     </div>
     <div class="content h-full w-full p-5">
         <TabContent tab="test" :currentTab="currentTab"> <Test /> </TabContent>
