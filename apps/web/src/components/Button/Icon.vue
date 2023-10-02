@@ -22,8 +22,8 @@
         shadow?: string;
     }
     const props = withDefaults(defineProps<IProps>(), {
-        bgColor: 'bg-primary-500',
-        textColor: 'text-white',
+        bgColor: 'bg-primary-900',
+        textColor: 'text-primary-500',
         bgColorHover: 'hover:bg-primary-600',
         border: 'border border-transparent',
         disabled: false,
