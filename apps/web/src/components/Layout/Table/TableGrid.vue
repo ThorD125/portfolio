@@ -1,14 +1,18 @@
 <template>
-<table class="table-auto">
+<table class="table-fixed w-full">
     <thead>
-    <tr>
+        <tr>
 
-        <th v-for="head in headers">{{ head }}</th>
+            <th v-for="head in headers">{{ head }}</th>
 
-    </tr>
-  </thead>
-    <slot></slot>
+        </tr>
+    </thead>
+    <tbody>
 
+      <slot></slot>
+
+    </tbody>
+      
 </table>
 </template>
 

@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="mt-3">
-        <h2 class="text-2xl font-bold">education</h2>
+        <h2 class="text-2xl font-bold">Education</h2>
         <div>
             <h2 class="text-xl font-semibold mt-1">Bachelor toegepaste informatica - Cyber Security Professional</h2>
             <p>2021-...</p>

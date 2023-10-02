@@ -1,6 +1,6 @@
 <template>
 
-    <td ref="mySlot"><slot></slot></td>
+    <td class=""><slot></slot></td>
 
 </template>
 

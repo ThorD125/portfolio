@@ -1,5 +1,5 @@
 <template>
-    <tr><slot></slot></tr>
+    <tr class="h-10"><slot></slot></tr>
 </template>
 
 <script setup lang="ts">
