@@ -7,6 +7,7 @@
         <!-- <TabNav tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
         <TabNav tab="Profiel" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <TabNav tab="Blog" :currentTab="currentTab" @actualsettab="actualsettab" />
     </div>
     <div class="content h-full w-full p-5">
         <TabContent tab="test" :currentTab="currentTab"> <Test /> </TabContent>
@@ -15,6 +16,7 @@
         <TabContent tab="Python" :currentTab="currentTab">Python</TabContent>
         <TabContent tab="Bash" :currentTab="currentTab">Bash</TabContent>
         <TabContent tab="Profiel" :currentTab="currentTab"> <Contact /> </TabContent>
+        <TabContent tab="Blog" :currentTab="currentTab"> <Blog /> </TabContent>
     </div>
 </template>
 

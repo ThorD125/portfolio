@@ -14,6 +14,7 @@
         <TRow><TCol>Victrix pro controller</TCol><TCol><Url href="https://pdp.com/products/ps5-ps4-pc-victrix-pro-bfg-wireless-controller-las-almas-le"/></TCol></TRow>
         <TRow><TCol>Usb c dock</TCol><TCol><Url href="https://www.startech.com/en-be/universal-laptop-docking-stations/dk30ch2depue"/></TCol></TRow>
         <TRow><TCol>Deskboard</TCol><TCol><Url href="https://deskboardbuddy.com/pages/deskboard-buddy?utm_content=111271053987&gadid=461911847402"/></TCol></TRow>
+        https://www.tiktok.com/@covertinstruments/video/7274215696823848238
     </TableGrid>
 </template>
 
