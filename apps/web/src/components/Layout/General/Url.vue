@@ -10,7 +10,7 @@ import { popScopeId } from 'vue';
     
 
     interface IProps {
-        href: string[];
+        href: string;
     }
 
     const props = withDefaults(defineProps<IProps>(), {
