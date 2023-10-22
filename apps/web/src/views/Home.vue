@@ -5,7 +5,7 @@
         <TabNav tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
         <!-- <TabNav tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
         <!-- <TabNav tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
-        <TabNav tab="Profiel" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <TabNav tab="About me" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="Blog" :currentTab="currentTab" @actualsettab="actualsettab" />
     </div>
