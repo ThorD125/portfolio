@@ -3,6 +3,7 @@
     <BlogDigitilizeFlanders ></BlogDigitilizeFlanders>
     <BlogCloudCafe class="bg-white color-black"></BlogCloudCafe>
   </div>
+ 
 </template>
 
 <script setup lang="ts">
@@ -30,7 +31,7 @@ h2, h3 {
 
 
 h2 {
-  color: #007bff; 
+  color: #8A2BE2; 
 }
 
 .blog:first-of-type h1{
@@ -39,16 +40,22 @@ h2 {
 
 .blog{
   background-color: white;
-  color: black;
+  color: #0f0f0f;
   border-radius: 0.5rem;
   padding: 1rem;
 }
 .blog.black{
-  background-color: black;
+  background-color: #0f0f0f;
   color: white;
 }
 .blog.black h1{
   color: white;
+}
+.blog.black h2 strong{
+  color: lightgray;
+}
+.blog.black h3 strong{
+  color: lightgray;
 }
 
 
