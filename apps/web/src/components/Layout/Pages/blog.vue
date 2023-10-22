@@ -28,8 +28,8 @@ h2, h3 {
 }
 
 
-h1,h2,h3 {
-  color: #1e90ff; 
+h1,h2,h3,h4,h5 {
+  color: #8a2be2; 
 }
 
 .blog:first-of-type h1{
