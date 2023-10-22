@@ -15,7 +15,6 @@
         <Tile bg-color="red">colors</Tile>
         <Tile bg-color="#8a2be2">colors</Tile>
         <Tile bg-color="#ff00ff">colors</Tile>
-        sefsef
         <Tile bg-color="#ff0080">colors</Tile>
         <Tile bg-color="#00bfff">colors</Tile>
         <Tile bg-color="#008b8b">colors</Tile>
