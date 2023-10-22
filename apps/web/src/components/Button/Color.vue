@@ -1,7 +1,7 @@
 <template>
     <div class="block w-full flex justify-center mt-5" @click="changeColor">
         <div class="rounded-full w-10 h-10 flex justify-center align-center" 
-        :style="props.selected ? 'border-width:0.25rem; border-color:'+color: 'border-width:0rem'"
+        :style="props.color.toString() == currentcolor.toString() ? 'border-width:0.25rem; border-color:'+color: 'border-width:0rem'"
 
         >
             <div class="rounded-full m-auto w-6 h-6" 
@@ -16,8 +16,9 @@
 
 <script lang="ts" setup>
 
+
     interface IProps {
-        color: any;
+        color: string;
         selected: boolean;
     }
     const props = withDefaults(defineProps<IProps>(), {
@@ -25,8 +26,12 @@
         selected: false,
     });
 
+
+    var currentcolor = localStorage.currentColor;
+
     const changeColor = () => {
-        console.log('change color');
+        localStorage.currentColor = props.color;
+        currentcolor = props.color;
     }
 
 </script>
