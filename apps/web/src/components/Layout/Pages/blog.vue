@@ -17,7 +17,6 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin: 1.25rem 0; 
-  color: #333; 
 }
 
 
@@ -26,12 +25,11 @@ h2, h3 {
   font-size: 1.5rem; 
   font-weight: bold;
   margin: 1.25rem 0; 
-  color: #666; 
 }
 
 
-h2 {
-  color: #8A2BE2; 
+h1,h2,h3 {
+  color: #1e90ff; 
 }
 
 .blog:first-of-type h1{
@@ -48,7 +46,7 @@ h2 {
   background-color: #0f0f0f;
   color: white;
 }
-.blog.black h1{
+/* .blog.black h1{
   color: white;
 }
 .blog.black h2 strong{
@@ -56,7 +54,7 @@ h2 {
 }
 .blog.black h3 strong{
   color: lightgray;
-}
+} */
 
 
 
