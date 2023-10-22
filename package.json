@@ -12,7 +12,7 @@
         "format": "prettier --write .",
         "prepare": "husky install",
         "save": "git add . && git commit -m f && git push && git status",
-        "deploy": "git checkout development && yarn run build && gh-pages -d apps/web/dist && rm -rf apps/web/dist"
+        "deploy": "git checkout development && yarn run build && yarn gh-pages -d apps/web/dist && rm -rf apps/web/dist"
     },
     "devDependencies": {
         "gh-pages": "^6.0.0",

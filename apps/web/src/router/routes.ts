@@ -9,7 +9,7 @@ import Test from '@/components/Layout/Pages/test.vue';
 export const routes: RouteRecordRaw[] = [
     {
         path: '/portfolio/',
-        alias: '/portfolio/home',
+        alias: ['/portfolio/home', '/'],
         name: 'home',
         component: Home,
     },
@@ -29,12 +29,13 @@ export const routes: RouteRecordRaw[] = [
         redirect: '404',
     },
     {
-        path: '/present',
+        path: '/present/',
         name: 'Present',
         component: Present,
     },
     {
-        path: '/',
+        path: '/portfolio/test/',
+        alias: '/test',
         name: 'testign',
         component: Test,
     },
