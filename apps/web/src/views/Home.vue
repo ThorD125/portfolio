@@ -1,6 +1,6 @@
 <template>
 
-    <div class="navbar flex flex-wrap h-full flex-col p-5">
+    <div class="navbar flex flex-wrap h-full flex-col p-5 bg-black text-white rounded-lg">
         <!-- <TabNav tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
         <TabNav tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
         <!-- <TabNav tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
