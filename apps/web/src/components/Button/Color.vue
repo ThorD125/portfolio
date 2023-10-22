@@ -1,6 +1,14 @@
 <template>
-    <div class="block w-full flex justify-center mt-5">
-        <div class="circled w-8 h-8 m-auto rounded-[5rem] relative" :style="'background-color:'+color+';'"></div>
+    <div class="block w-full flex justify-center mt-5" @click="changeColor">
+        <div class="rounded-full w-10 h-10 flex justify-center align-center" 
+        :style="props.selected ? 'border-width:0.25rem; border-color:'+color: 'border-width:0rem'"
+
+        >
+            <div class="rounded-full m-auto w-6 h-6" 
+            :style="'background-color:'+color"   
+            >
+</div>
+        </div>
     </div>
 </template>
 
@@ -8,21 +16,25 @@
 
 <script lang="ts" setup>
 
-
-interface IProps {
-        color: string;
+    interface IProps {
+        color: any;
+        selected: boolean;
     }
     const props = withDefaults(defineProps<IProps>(), {
         color: '#ff00ff',
+        selected: false,
     });
 
-
+    const changeColor = () => {
+        console.log('change color');
+    }
 
 </script>
 
 <style scoped>
 
-.circled:before {
+/* .circled:before {
+    position: absolute;
     content: "";
     display: block;
     background-color: black;
@@ -31,32 +43,17 @@ interface IProps {
     height: 1.5rem;
     margin-top: 0.25rem;
     margin-left: 0.25rem;
-    position: absolute;
 }
-.circled::after {
+.circled:after {
     position: absolute;
     content: "";
     display: block;
-    background-color: purple;
+    background-color: color;
     border-radius: 50%;
     width: 1rem;
     height: 1rem;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
-}
-
-/* .circled:after {
-    content: "";
-    padding: 1em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0.5em;
-    border: 0.25em solid;
-    border-radius: 50%;
-    transition: padding 250ms;
-    background-color: white;
 } */
 
 </style>

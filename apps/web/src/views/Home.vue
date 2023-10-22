@@ -9,8 +9,7 @@
         <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="Blog" :currentTab="currentTab" @actualsettab="actualsettab" />
         <div class="w-full">
-            <Color></Color>
-            <Color color="#ff00ff"></Color>
+            <Color color="#ff00ff" :selected="true"></Color>
             <Color color="#1e90ff"></Color>
             <Color color="red"></Color>
             <Color color="#8a2be2"></Color>
