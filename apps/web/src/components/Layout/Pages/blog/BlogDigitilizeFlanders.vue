@@ -1,8 +1,6 @@
 <template>
     <h1>My Educational Journey with 'Digitilize Flanders</h1>
-    
-    <h2>Introduction</h2>
-    
+        
     <p>As a student, stepping into the world of professional networking can be quite intimidating, especially when it's your first time. Recently, I had the exciting opportunity to attend the "Digitilize Flanders" event in Mechelen, Belgium. This experience turned out to be an eye-opening adventure, full of discoveries, new connections, and a deep dive into the IT industry.</p>
     
     <h2>Starting the Voyage</h2>
@@ -41,29 +39,4 @@
  <script setup lang="ts">
      
  </script>
- 
- <style scoped>
- /* Style the main heading */
- h1 {
-   font-size: 1.75rem; /* Adjust the font size as needed */
-   font-weight: bold;
-   text-align: center;
-   margin: 1.25rem 0; /* Adjust the margin as needed */
-   color: #333; /* Change this to your desired text color */
- }
- 
- /* Style the subheadings (h2 and h3) */
- h2, h3 {
-   font-size: 1.5rem; /* Adjust the font size as needed */
-   font-weight: bold;
-   margin: 1.25rem 0; /* Adjust the margin as needed */
-   color: #666; /* Change this to your desired text color */
- }
- 
- /* Style the subheadings (h2) with a different color */
- h2 {
-   color: #007bff; /* Change this to your desired text color */
- }
- 
- </style>
  
