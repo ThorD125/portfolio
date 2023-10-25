@@ -16,7 +16,6 @@
             <Color color="#8a2be2" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
         </div>
     </div>
-    afix
     <div class="content h-full w-full p-5">
         <TabContent tab="test" :currentTab="currentTab"> <Test /> </TabContent>
         <TabContent tab="CV" :currentTab="currentTab"> <Cv /> </TabContent>
