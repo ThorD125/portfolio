@@ -3,7 +3,7 @@ on: [push]
 permissions:
   contents: write
 jobs:
-  build-and-deploy:
+  build:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
@@ -17,7 +17,10 @@ jobs:
       - name: Build 🔧
         run: |
           yarn build
-
+  deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
