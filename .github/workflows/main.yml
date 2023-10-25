@@ -15,7 +15,7 @@ jobs:
 
       - name: Build 🏗️
         run: |
-          ls
+          ls -r
         working-directory: ./../
 
 
