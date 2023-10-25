@@ -38,7 +38,11 @@ const actualsettab = (e: string) => {
     currentTab.value = e;
 }
 
-const currentColor = ref(localStorage.currentColor) ?? ref('#ff00ff');
+const currentColor = ref(localStorage.currentColor);
+
+if (!currentColor.value) {
+    currentColor.value = '#ff00ff';
+}
 
 const changecoloros = () => {
     localStorage.currentColor = currentColor.value;
