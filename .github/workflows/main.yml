@@ -11,12 +11,12 @@ jobs:
     steps:
       - name: Install 🔧
         run: yarn install
-        working-directory: ./../../
+        working-directory: ./../
 
       - name: Build 🏗️
         run: |
           yarn build
-        working-directory: ./../../
+        working-directory: ./../
 
 
       - name: Deploy to GH Pages 🚀
