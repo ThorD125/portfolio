@@ -11,7 +11,7 @@
         "lint": "turbo run lint",
         "format": "prettier --write .",
         "prepare": "husky install",
-        "save": "git add . && git commit -m f && git push && git status",
+        "save": "git pull && git add . && git commit -m f && git push && git status",
         "reploy": "git commit --allow-empty -m 'Trigger rebuild' && git push"
     },
     "devDependencies": {
