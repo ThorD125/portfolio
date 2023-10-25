@@ -15,7 +15,7 @@ jobs:
 
       - name: Build 🏗️
         run: |
-          yarn build
+          ls
         working-directory: ./../
 
 
