@@ -8,11 +8,12 @@
         <TabNav tab="About me" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="Blog" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <Spacer></Spacer>
         <div class="w-full">
-            <Color color="#ff00ff" :selected="true"></Color>
-            <Color color="#1e90ff"></Color>
-            <Color color="red"></Color>
-            <Color color="#8a2be2"></Color>
+            <Color color="#ff00ff" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor" :selected="true"></Color>
+            <Color color="#1e90ff" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
+            <Color color="red" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
+            <Color color="#8a2be2" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
         </div>
     </div>
     <div class="content h-full w-full p-5">
@@ -37,6 +38,19 @@ const actualsettab = (e: string) => {
     currentTab.value = e;
 }
 
+const currentColor = ref(localStorage.currentColor) ?? ref('#ff00ff');
+
+const changecoloros = () => {
+    localStorage.currentColor = currentColor.value;
+    document.documentElement.style.setProperty("--accentcolor", currentColor.value);
+}
+
+
+changecoloros();
+const actualsetcurrentcolor = (e: string) => {
+    currentColor.value = e;
+    changecoloros();
+}
 
 </script>
 

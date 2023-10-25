@@ -29,7 +29,7 @@ h2, h3 {
 
 
 h1,h2,h3,h4,h5 {
-  color: #8a2be2; 
+  color: var(--accentcolor, #ff00ff); 
 }
 
 .blog:first-of-type h1{
