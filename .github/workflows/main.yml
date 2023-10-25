@@ -11,12 +11,13 @@ jobs:
     steps:
       - name: Install 🔧
         run: yarn install
+        working-directory: ./../../
 
       - name: Build 🏗️
         run: |
           yarn build
-      - name: Set Creds
-        run: git config user.name "DEPLOYER" && git config user.email "deploy@gh0.tech"
+        working-directory: ./../../
+
 
       - name: Deploy to GH Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
