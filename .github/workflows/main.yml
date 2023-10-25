@@ -16,7 +16,7 @@ jobs:
       - name: Build 🏗️
         run: |
           ls -r
-        working-directory: ./../
+        working-directory: ./
 
 
       - name: Deploy to GH Pages 🚀
