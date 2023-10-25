@@ -10,7 +10,6 @@
         <TabNav tab="Blog" :currentTab="currentTab" @actualsettab="actualsettab" />
         <Spacer></Spacer>
         <div class="w-full">
-            test
             <Color color="#ff00ff" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor" :selected="true"></Color>
             <Color color="#1e90ff" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
             <Color color="red" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
