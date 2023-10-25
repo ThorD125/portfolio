@@ -8,11 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Install 🔧
         run: yarn install
-
       - name: Build 🏗️
         run: |
           yarn build
