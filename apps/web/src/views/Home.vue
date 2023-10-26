@@ -9,6 +9,7 @@
         <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="Blog" :currentTab="currentTab" @actualsettab="actualsettab" />
         <Spacer></Spacer>
+        lsmdkskdfmls
         <div class="w-full">
             <Color color="#ff00ff" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor" :selected="true"></Color>
             <Color color="#1e90ff" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
