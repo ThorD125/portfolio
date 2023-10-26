@@ -23,3 +23,5 @@ jobs:
         with:
           folder: apps/web/dist
           branch: gh-pages
+      - name: realdeploy
+        uses: actions/deploy-pages@v2
