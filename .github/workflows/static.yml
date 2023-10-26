@@ -4,7 +4,9 @@ on:
     branches:
     - development
 permissions:
-  contents: write
+  contents: write   
+  pages: write
+  id-token: write
 jobs:
   build:
     concurrency: ci-${{ github.ref }}
