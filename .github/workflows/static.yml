@@ -23,13 +23,13 @@ jobs:
 
       - name: Fix permissions
         run: |
-          chmod -c -R +rX "app/dist/" | while read line; do
+          chmod -c -R +rX "app/web/dist/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: app/dist/
+          path: app/web/dist/
 
       - name: realdeploy
         uses: actions/deploy-pages@v2
