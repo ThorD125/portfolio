@@ -19,3 +19,11 @@
     <p>All in all, the Campus Cloud Café at Howest in Kortrijk has been an <strong>unforgettable</strong> and <strong>educational</strong> experience.</p>
 </div>
 </template>
+
+<script setup lang="ts">
+    
+</script>
+
+<style scoped>
+
+</style>
