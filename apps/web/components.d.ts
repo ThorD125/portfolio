@@ -7,11 +7,13 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Aboutme: typeof import('./src/components/Layout/Pages/aboutme.vue')['default']
     Blog: typeof import('./src/components/Layout/Pages/blog.vue')['default']
     BlogCloudCafe: typeof import('./src/components/Layout/Pages/blog/BlogCloudCafe.vue')['default']
     BlogDigitilizeFlanders: typeof import('./src/components/Layout/Pages/blog/BlogDigitilizeFlanders.vue')['default']
     Color: typeof import('./src/components/Button/Color.vue')['default']
     Contact: typeof import('./src/components/Layout/Pages/contact.vue')['default']
+    copy: typeof import('./src/components/Layout/Pages/cv copy.vue')['default']
     Cv: typeof import('./src/components/Layout/Pages/cv.vue')['default']
     Icon: typeof import('./src/components/Button/Icon.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

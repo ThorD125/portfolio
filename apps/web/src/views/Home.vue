@@ -19,6 +19,7 @@
     <div class="content h-full w-full p-5">
         <TabContent tab="test" :currentTab="currentTab"> <Test /> </TabContent>
         <TabContent tab="CV" :currentTab="currentTab"> <Cv /> </TabContent>
+        <TabContent tab="About me" :currentTab="currentTab"> <Aboutme /> </TabContent>
         <TabContent tab="Javascript" :currentTab="currentTab">Javascript</TabContent>
         <TabContent tab="Python" :currentTab="currentTab">Python</TabContent>
         <TabContent tab="Bash" :currentTab="currentTab">Bash</TabContent>
@@ -41,7 +42,7 @@ const actualsettab = (e: string) => {
 const currentColor = ref(localStorage.currentColor);
 
 if (!currentColor.value || currentColor.value == 'undefined') {
-    currentColor.value = '#ff00ff';
+    currentColor.value = '#1e90ff';
 }
 
 const changecoloros = () => {
