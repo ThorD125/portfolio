@@ -18,6 +18,7 @@ declare module 'vue' {
     copy: typeof import('./src/components/Layout/Pages/cv copy.vue')['default']
     Cv: typeof import('./src/components/Layout/Pages/cv.vue')['default']
     Icon: typeof import('./src/components/Button/Icon.vue')['default']
+    ImageIcon: typeof import('./src/components/Button/ImageIcon.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SidePanel: typeof import('./src/components/SidePanel.vue')['default']
