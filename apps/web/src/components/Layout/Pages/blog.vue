@@ -1,5 +1,6 @@
 <template>
   <div class="rounded-lg h-full">
+    <BlogInternationaleProjectWeek class="bg-white color-black"></BlogInternationaleProjectWeek>
     <BlogDigitilizeFlanders ></BlogDigitilizeFlanders>
     <BlogCloudCafe class="bg-white color-black"></BlogCloudCafe>
   </div>
@@ -32,9 +33,6 @@ h1,h2,h3,h4,h5 {
   color: var(--accentcolor, #ff00ff); 
 }
 
-.blog:first-of-type h1{
-  margin-top: 0;
-}
 
 .blog{
   background-color: white;
@@ -45,6 +43,9 @@ h1,h2,h3,h4,h5 {
 .blog.black{
   background-color: #0f0f0f;
   color: white;
+}
+.blog.black h1{
+  margin-top: 0;
 }
 /* .blog.black h1{
   color: white;

@@ -11,6 +11,8 @@ declare module 'vue' {
     Blog: typeof import('./src/components/Layout/Pages/blog.vue')['default']
     BlogCloudCafe: typeof import('./src/components/Layout/Pages/blog/BlogCloudCafe.vue')['default']
     BlogDigitilizeFlanders: typeof import('./src/components/Layout/Pages/blog/BlogDigitilizeFlanders.vue')['default']
+    BlogInternationaleProjectWeek: typeof import('./src/components/Layout/Pages/blog/BlogInternationaleProjectWeek.vue')['default']
+    BlogTemplate: typeof import('./src/components/Layout/Pages/blog/BlogTemplate.vue')['default']
     Color: typeof import('./src/components/Button/Color.vue')['default']
     Contact: typeof import('./src/components/Layout/Pages/contact.vue')['default']
     copy: typeof import('./src/components/Layout/Pages/cv copy.vue')['default']
