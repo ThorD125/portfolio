@@ -1,10 +1,10 @@
 <template>
-
-    <img :src="'src/assets/icons/linkedin.svg'" class="w-5 h-5" alt="test">
-
+    <img :src="getimage()">
 </template>
 
 <script lang="ts" setup>
+
+    import LinkedIn from "@/assets/icons/linkedin.svg";
 
 
     interface IProps {
@@ -13,6 +13,23 @@
     const props = withDefaults(defineProps<IProps>(), {
         src: "test",
     });
+
+    const getimage = () => {
+        switch (props.src) {
+            case "linkedin":
+                return LinkedIn;
+            default:
+                return "test";
+        }
+    };
 </script>
 
-<style scoped></style>
+<style scoped>
+img{
+    color: aliceblue !important;
+    fill: aqua !important;
+    background-color: darksalmon !important;
+    stroke: blueviolet;
+    
+}
+</style>
