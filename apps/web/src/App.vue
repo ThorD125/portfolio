@@ -1,5 +1,5 @@
 <template>
-    <div class="p-5 h-screen w-screen flex flex-wrap overflow-hidden">
+    <div class="p-5 md:px-20 xl:px-40 h-screen w-screen flex flex-wrap overflow-hidden">
         <RouterView :key="$route.fullPath" />
     </div>
 </template>

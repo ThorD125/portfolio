@@ -1,5 +1,5 @@
 <template>
-      <div class="px-2 text-center hover:cursor-pointer" @click="toggleDiv">
+      <div class="hover:cursor-pointer hover:text-accent hover:underline duration-300" @click="toggleDiv">
         <h1>{{ props.title }}</h1>
       </div>
       <div v-show="!showFirstDiv">

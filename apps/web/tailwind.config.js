@@ -31,8 +31,22 @@ module.exports = {
                 html: {
                     color: theme('colors.white'),
                     backgroundColor: theme('colors.black'),
+                    fontFamily:
+                        '-apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "helvetica neue", Helvetica, 游ゴシック, "pingfang sc", STXihei, 华文细黑, "microsoft yahei", 微软雅黑, SimSun, 宋体, Heiti, 黑体, sans-serif',
+                    lineheight: '1.8em',
+                    fontSize: '18px',
                 },
-                h1: { fontSize: '2rem' },
+                h1: {
+                    fontSize: '2rem',
+                    marginBottom: '3rem',
+                    marginTop: '3rem',
+                    fontWeight: '700',
+                },
+                h2: {
+                    fontSize: '1.5rem',
+                    marginBottom: '2rem',
+                    marginTop: '2rem',
+                },
             });
         }),
     ],

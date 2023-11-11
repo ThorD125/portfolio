@@ -1,5 +1,5 @@
 <template>
-    <button class="h-fit p-1 mx-5" :class="tab == currentTab ? 'font-bold' : ''" @click="emit('actualsettab', props.tab)">
+    <button class="h-fit p-1 mx-5 hover:underline" :class="tab == currentTab ? 'font-bold' : ''" @click="emit('actualsettab', props.tab)">
         {{ props.tab }}
     </button>
 </template>

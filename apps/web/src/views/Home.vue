@@ -2,12 +2,13 @@
 
     <div class="navbar flex justify-end w-full h-min max-h-[10%]">
         <!-- <TabNav tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
-        <TabNav tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
+        <TabNav tab="About me" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
+        <TabNav tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" />
         <!-- <TabNav tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
         <!-- <TabNav tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
-        <TabNav tab="About me" :currentTab="currentTab" @actualsettab="actualsettab" />
-        <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <TabNav tab="Projects" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
         <TabNav tab="Blog" :currentTab="currentTab" @actualsettab="actualsettab" />
+        <TabNav tab="test" :currentTab="currentTab" @actualsettab="actualsettab" />
         <!-- 
         <Spacer></Spacer>
             <div class="w-full">
@@ -17,7 +18,7 @@
             <Color color="red" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
         </div> -->
     </div>
-    <div class="content w-full h-full max-h-[90%] overflow-y-scroll">
+    <div class="content pr-5 w-full h-full max-h-[90%] overflow-y-scroll">
         <TabContent tab="test" :currentTab="currentTab"> <Test /> </TabContent>
         <TabContent tab="CV" :currentTab="currentTab"> <Cv /> </TabContent>
         <TabContent tab="About me" :currentTab="currentTab"> <Aboutme /> </TabContent>
