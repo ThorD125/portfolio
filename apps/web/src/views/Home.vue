@@ -2,7 +2,7 @@
 
     <div class="navbar flex justify-end w-full h-min max-h-[10%]">
         <!-- <TabNav tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
-        <TabNav tab="About me" :currentTab="currentTab" @actualsettab="actualsettab" :default="true" />
+        <TabNav tab="About me" :currentTab="currentTab" @actualsettab="actualsettab" />
         <TabNav tab="CV" :currentTab="currentTab" @actualsettab="actualsettab" />
         <!-- <TabNav tab="Python" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
         <!-- <TabNav tab="Bash" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
@@ -27,6 +27,7 @@
         <TabContent tab="Bash" :currentTab="currentTab">Bash</TabContent>
         <TabContent tab="Profiel" :currentTab="currentTab"> <Contact /> </TabContent>
         <TabContent tab="Blog" :currentTab="currentTab"> <Blog /> </TabContent>
+        <TabContent tab="Projects" :currentTab="currentTab"> <Projects /> </TabContent>
     </div>
 </template>
 
