@@ -19,19 +19,19 @@
 
         <ul>
             <li>
-                <strong>Vulnerability of Chamberlain Group Products:</strong> Garage door openers from the Chamberlain
+                <span>Vulnerability of Chamberlain Group Products:</span> Garage door openers from the Chamberlain
                 Group, often trusted for their reliability, were shown to be susceptible to hacking. Kems highlighted
                 that these devices, despite their widespread use, harbor vulnerabilities that can be exploited with
                 relative ease.
             </li>
             <li>
-                <strong>Inadequacies of Security Protocols:</strong> Security protocols such as Security Plus and
+                <span>Inadequacies of Security Protocols:</span> Security protocols such as Security Plus and
                 Security Plus 2.0, designed to protect garage door openers from unauthorized access, were scrutinized.
                 It was revealed that while these protocols offer some level of security, they lack complete encryption,
                 leaving them open to manipulation.
             </li>
             <li>
-                <strong>Affordable Hardware for Hacking:</strong> Kems demonstrated the use of budget-friendly hardware,
+                <span>Affordable Hardware for Hacking:</span> Kems demonstrated the use of budget-friendly hardware,
                 including ESP32 and CC1101, to intercept and manipulate RF signals. This implies that an attacker with
                 minimal resources could potentially gain unauthorized access to a garage.
             </li>
@@ -41,14 +41,14 @@
 
         <ul>
             <li>
-                <strong>Door Separation and Additional Security Technology:</strong> To counteract these
+                <span>Door Separation and Additional Security Technology:</span> To counteract these
                 vulnerabilities, Kems recommended practical measures such as securing the door between the house and the
                 garage. This additional layer of physical security adds an extra barrier for potential intruders.
                 Moreover, investing in advanced security technologies can further fortify the garage's defenses.
             </li>
             <li>
-                <strong>Choosing Reliable Garage Door Openers:</strong> Not all garage door openers are created equal.
-                Attendees were advised to carefully select openers from reputable manufacturers with a strong track
+                <span>Choosing Reliable Garage Door Openers:</span> Not all garage door openers are created equal.
+                Attendees were advised to carefully select openers from reputable manufacturers with a span track
                 record in security. Prioritizing robust encryption and regularly updating firmware were highlighted as
                 essential elements in maintaining garage security.
             </li>

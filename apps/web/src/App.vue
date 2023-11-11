@@ -4,3 +4,22 @@
     </div>
 </template>
 <script setup lang="ts"></script>
+
+<style>
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 2px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #eee;
+    }
+    ::-webkit-scrollbar-track-piece {
+        background: #ccc;
+    }
+    ::-webkit-scrollbar-button {
+        display: none;
+    }
+</style>

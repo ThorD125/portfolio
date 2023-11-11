@@ -32,7 +32,7 @@ module.exports = {
                     color: theme('colors.white'),
                     backgroundColor: theme('colors.black'),
                 },
-                h1: { fontSize: '4.2rem' },
+                h1: { fontSize: '2rem' },
             });
         }),
     ],
