@@ -1,5 +1,5 @@
 <template>
-    <div class="blog black">
+    <div>
         <p>
             In a globalized world, collaboration and innovation know no boundaries. This past week, a diverse group of
             talented individuals from around the world converged in the vibrant city of Barcelona, Spain, to embark on

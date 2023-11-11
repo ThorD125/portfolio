@@ -1,5 +1,5 @@
 <template>
-    <div class="blog black">
+    <div>
         <p>
             What an <strong>incredible</strong> experience it was at the Campus Cloud Café at Howest, Kortrijk! The
             event started at 5:00 PM and promised an engaging day full of <strong>valuable</strong> insights and

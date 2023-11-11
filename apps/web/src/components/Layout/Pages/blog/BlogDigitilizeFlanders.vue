@@ -1,5 +1,5 @@
 <template>
-    <div class="blog white">
+    <div>
         <p>
             As a student, stepping into the world of professional networking can be quite intimidating, especially when
             it's your first time. Recently, I had the exciting opportunity to attend the "<strong
