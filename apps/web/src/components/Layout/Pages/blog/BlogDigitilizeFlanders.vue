@@ -1,7 +1,5 @@
 <template>
-    <div class="blog black">
-        <h1>My Educational Journey with '<strong>Digitilize Flanders</strong>'</h1>
-
+    <div class="blog white">
         <p>
             As a student, stepping into the world of professional networking can be quite intimidating, especially when
             it's your first time. Recently, I had the exciting opportunity to attend the "<strong
@@ -90,10 +88,6 @@
     </div>
 </template>
 
-<script setup lang="ts">
-    
-</script>
+<script setup lang="ts"></script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
