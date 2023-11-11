@@ -22,9 +22,9 @@
         shadow?: string;
     }
     const props = withDefaults(defineProps<IProps>(), {
-        bgColor: 'bg-primary-900',
+        bgColor: 'bg-black',
         textColor: 'text-primary-500',
-        bgColorHover: 'hover:bg-primary-600',
+        bgColorHover: 'hover:bg-white',
         border: 'border border-transparent',
         disabled: false,
         shadow: 'shadow-sm',

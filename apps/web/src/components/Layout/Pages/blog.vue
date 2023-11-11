@@ -2,13 +2,13 @@
     <div class="rounded-lg h-full w-full">
         <h1 class="w-full h-fit m-0">Blog</h1>
         <BlogTile title="International Project Week">
-            <BlogInternationaleProjectWeek class="bg-white color-black"></BlogInternationaleProjectWeek>
+            <BlogInternationaleProjectWeek></BlogInternationaleProjectWeek>
         </BlogTile>
         <BlogTile title="Digitilize Flanders">
             <BlogDigitilizeFlanders></BlogDigitilizeFlanders>
         </BlogTile>
         <BlogTile title="Campus Cloud Cafe">
-            <BlogCloudCafe class="bg-white color-black"></BlogCloudCafe>
+            <BlogCloudCafe></BlogCloudCafe>
         </BlogTile>
         <BlogTile title="Hacking Garage Doors With RF">
             <BlogHackingGarageDoorsWithRF></BlogHackingGarageDoorsWithRF>
@@ -54,39 +54,27 @@
     .blog.black h1 {
         margin-top: 0;
     }
-    /* .blog.black h1{
-  color: white;
-}
-.blog.black h2 strong{
-  color: lightgray;
-}
-.blog.black h3 strong{
-  color: lightgray;
-} */
-
-    /* For webkit-based browsers (Chrome, Safari) */
-    /* Customize the scrollbar itself */
     ::-webkit-scrollbar {
-        width: 4px; /* Set the width of the scrollbar */
+        width: 4px; 
     }
 
-    /* Customize the scrollbar thumb (the draggable part) */
+    
     ::-webkit-scrollbar-thumb {
-        background: #888; /* Set the color of the thumb */
-        border-radius: 2px; /* Set the border radius of the thumb */
+        background: #888; 
+        border-radius: 2px; 
     }
 
-    /* Customize the scrollbar track (the area behind the thumb) */
+    
     ::-webkit-scrollbar-track {
-        background: #eee; /* Set the color of the track */
+        background: #eee; 
     }
 
-    /* Customize the scrollbar track piece (part of the track not covered by the thumb) */
+    
     ::-webkit-scrollbar-track-piece {
-        background: #ccc; /* Set the color of the track piece */
+        background: #ccc; 
     }
 
-    /* Optionally, hide the scrollbar buttons */
+    
     ::-webkit-scrollbar-button {
         display: none;
     }

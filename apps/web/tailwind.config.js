@@ -23,17 +23,25 @@ module.exports = {
                     200: '#fff',
                     300: '#fff',
                     400: '#fff',
-                    500: '#1d1d1f',
+                    500: '#212121',
                     600: '#fff',
                     700: '#fff',
                     800: '#fff',
                     900: '#fff',
-                    default: '#1d1d1f',
+                    default: '#212121',
                 },
-                black: '#1d1d1f',
+                black: '#212121',
                 white: '#ffffff',
             },
         },
     },
-    plugins: [require('@tailwindcss/typography'), require('tailwindcss-debug-screens')],
+    plugins: [
+        require('@tailwindcss/typography'),
+        require('tailwindcss-debug-screens'),
+        plugin(({ addBase, theme }) => {
+            addBase({
+                html: { color: theme('colors.white'), backgroundColor: theme('colors.black') },
+            });
+        }),
+    ],
 };

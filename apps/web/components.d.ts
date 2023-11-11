@@ -17,7 +17,6 @@ declare module 'vue' {
     BlogTile: typeof import('./src/components/Layout/Tiles/BlogTile.vue')['default']
     Color: typeof import('./src/components/Button/Color.vue')['default']
     Contact: typeof import('./src/components/Layout/Pages/contact.vue')['default']
-    copy: typeof import('./src/components/Layout/Pages/blog/BlogTemplate copy.vue')['default']
     Cv: typeof import('./src/components/Layout/Pages/cv.vue')['default']
     Icon: typeof import('./src/components/Button/Icon.vue')['default']
     ImageIcon: typeof import('./src/components/Button/ImageIcon.vue')['default']
@@ -35,6 +34,5 @@ declare module 'vue' {
     TileGrid: typeof import('./src/components/Layout/Tiles/TileGrid.vue')['default']
     TRow: typeof import('./src/components/Layout/Table/TRow.vue')['default']
     Url: typeof import('./src/components/Layout/General/Url.vue')['default']
-    Z: typeof import('./src/components/Layout/Pages/blog/z.vue')['default']
   }
 }

@@ -37,27 +37,4 @@
 
 <style scoped>
 
-/* .circled:before {
-    position: absolute;
-    content: "";
-    display: block;
-    background-color: black;
-    border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-top: 0.25rem;
-    margin-left: 0.25rem;
-}
-.circled:after {
-    position: absolute;
-    content: "";
-    display: block;
-    background-color: color;
-    border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-} */
-
 </style>
