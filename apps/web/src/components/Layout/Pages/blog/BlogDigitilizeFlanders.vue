@@ -8,7 +8,7 @@
             discoveries, new connections, and a deep dive into the IT industry.
         </p>
 
-        <h2><strong>Starting the Voyage</strong></h2>
+        <h1><strong>Starting the Voyage</strong></h1>
 
         <p>
             The journey to Mechelen began with a mix of excitement and nerves. I had learned about the "<strong
@@ -22,7 +22,7 @@
             city's rich history created the perfect backdrop for a day of networking and exploration.
         </p>
 
-        <h2><strong>Discovering the Unknown</strong></h2>
+        <h1><strong>Discovering the Unknown</strong></h1>
 
         <p>
             Entering the venue, my initial anxiety started to fade away. The event was buzzing with energy, with
@@ -52,7 +52,7 @@
             customized cloud solutions, simplifying the intricacies of cloud computing.
         </p>
 
-        <h2><strong>Growing My Professional Network Outside the Classroom</strong></h2>
+        <h1><strong>Growing My Professional Network Outside the Classroom</strong></h1>
 
         <p>
             While "<strong>Digitilize Flanders</strong>" was undoubtedly a fantastic platform for professional
@@ -68,7 +68,7 @@
             growth.
         </p>
 
-        <h2><strong>Conclusion</strong></h2>
+        <h1><strong>Conclusion</strong></h1>
 
         <p>
             My student adventure at "<strong>Digitilize Flanders</strong>" turned out to be an educational and

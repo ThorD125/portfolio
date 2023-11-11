@@ -1,5 +1,4 @@
 
-import { popScopeId } from 'vue';
 <template>
     <div>
         <a href="{{ props.href }}" class="underline decoration-black decoration-solid underline-offset-4 decoration-3 hover:font-bold">{{ urlText }}</a>
