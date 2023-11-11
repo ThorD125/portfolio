@@ -11,10 +11,12 @@ declare module 'vue' {
     Blog: typeof import('./src/components/Layout/Pages/blog.vue')['default']
     BlogCloudCafe: typeof import('./src/components/Layout/Pages/blog/BlogCloudCafe.vue')['default']
     BlogDigitilizeFlanders: typeof import('./src/components/Layout/Pages/blog/BlogDigitilizeFlanders.vue')['default']
+    BlogHackingGarageDoorsWithRF: typeof import('./src/components/Layout/Pages/blog/BlogHackingGarageDoorsWithRF.vue')['default']
     BlogInternationaleProjectWeek: typeof import('./src/components/Layout/Pages/blog/BlogInternationaleProjectWeek.vue')['default']
     BlogTemplate: typeof import('./src/components/Layout/Pages/blog/BlogTemplate.vue')['default']
     Color: typeof import('./src/components/Button/Color.vue')['default']
     Contact: typeof import('./src/components/Layout/Pages/contact.vue')['default']
+    copy: typeof import('./src/components/Layout/Pages/blog/BlogTemplate copy.vue')['default']
     Cv: typeof import('./src/components/Layout/Pages/cv.vue')['default']
     Icon: typeof import('./src/components/Button/Icon.vue')['default']
     ImageIcon: typeof import('./src/components/Button/ImageIcon.vue')['default']
@@ -32,5 +34,6 @@ declare module 'vue' {
     TileGrid: typeof import('./src/components/Layout/Tiles/TileGrid.vue')['default']
     TRow: typeof import('./src/components/Layout/Table/TRow.vue')['default']
     Url: typeof import('./src/components/Layout/General/Url.vue')['default']
+    Z: typeof import('./src/components/Layout/Pages/blog/z.vue')['default']
   }
 }

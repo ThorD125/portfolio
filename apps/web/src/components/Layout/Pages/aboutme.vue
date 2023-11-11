@@ -9,7 +9,6 @@
         <p>&lt;<span>Phone</span> +32 489 71 44 633\&gt;</p>
         <p>&lt;<span>Email</span> thor.demeestere@telenet.be\&gt;</p>
         <p>&lt;<span>Linkedin</span> <ImageIcon src="linkedin" />\&gt;</p>
-        
     </div>
 </div>
    
