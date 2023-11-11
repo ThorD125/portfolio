@@ -1,6 +1,6 @@
 <template>
-    <div class="rounded-lg h-full w-full">
-        <h1 class="w-full h-fit m-0">Blog</h1>
+    <div>
+        <h1 class="w-full h-fit">Blog</h1>
         <BlogTile title="International Project Week">
             <BlogInternationaleProjectWeek></BlogInternationaleProjectWeek>
         </BlogTile>

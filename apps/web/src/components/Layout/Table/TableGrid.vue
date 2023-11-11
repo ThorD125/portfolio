@@ -1,5 +1,5 @@
 <template>
-<table class="table-fixed w-full">
+<table class="table-fixed">
     <thead>
         <tr>
 

@@ -1,6 +1,6 @@
 <template>
-<div class="flex h-full w-full">
-    <div class="h-fit m-auto p-5 rounded-xl">        
+<div class="flex">
+    <div class="h-fit m-auto p-5">        
         <h1 class="m-0">&lt;About me\&gt;</h1>
         <p>&lt;<span>School</span> Howest\&gt;</p>
         <p>&lt;<span>Status</span> student\&gt;</p>
