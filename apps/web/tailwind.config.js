@@ -17,21 +17,9 @@ module.exports = {
                 xxxl: '3200px',
             },
             colors: {
-                primary: {
-                    50: '#fff',
-                    100: '#fff',
-                    200: '#fff',
-                    300: '#fff',
-                    400: '#fff',
-                    500: '#212121',
-                    600: '#fff',
-                    700: '#fff',
-                    800: '#fff',
-                    900: '#fff',
-                    default: '#212121',
-                },
                 black: '#212121',
-                white: '#ffffff',
+                white: '#dadada',
+                accent: '#42a5f5',
             },
         },
     },
@@ -40,7 +28,11 @@ module.exports = {
         require('tailwindcss-debug-screens'),
         plugin(({ addBase, theme }) => {
             addBase({
-                html: { color: theme('colors.white'), backgroundColor: theme('colors.black') },
+                html: {
+                    color: theme('colors.white'),
+                    backgroundColor: theme('colors.black'),
+                },
+                h1: { fontSize: '4.2rem' },
             });
         }),
     ],

@@ -23,7 +23,7 @@
     }
     const props = withDefaults(defineProps<IProps>(), {
         bgColor: 'bg-black',
-        textColor: 'text-primary-500',
+        textColor: 'text-white',
         bgColorHover: 'hover:bg-white',
         border: 'border border-transparent',
         disabled: false,
