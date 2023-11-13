@@ -6,7 +6,7 @@
             opportunities to expand our professional network.
         </p>
 
-        <h1>Session 1: "Real-life Use Cases with <span>Azure OpenAI</span>"</h1>
+        <h3>Session 1: "Real-life Use Cases with <span>Azure OpenAI</span>"</h3>
         <p>
             The first session, presented by Mathias Cheyns, was truly <span>inspiring</span>. He took us on a
             journey through the applications of Azure OpenAI in various industries and demonstrated how these advanced
@@ -14,21 +14,21 @@
             inspired by the <span>possibilities</span> of artificial intelligence.
         </p>
 
-        <h1>Session 2: "Lessons Learned in Building an <span>Industrial IoT</span> Platform on Azure"</h1>
+        <h3>Session 2: "Lessons Learned in Building an <span>Industrial IoT</span> Platform on Azure"</h3>
         <p>
             The second session by Toon Vanhoutte provided me with a deeper understanding of the challenges and
             opportunities of the <span>Internet of Things (IoT)</span>. His extensive experience undoubtedly offered
             <span>valuable</span> lessons for building industrial IoT platforms on Azure.
         </p>
 
-        <h1>Intermission</h1>
+        <h3>Intermission</h3>
         <p>
             After this session, it was time for a well-deserved break, and there was an abundance of
             <span>delicious</span> sandwiches available for everyone to enjoy. It was a great opportunity to
             <span>network</span> and converse with fellow participants while savoring some treats.
         </p>
 
-        <h1>Session 3: "Azure Durable Functions 101"</h1>
+        <h3>Session 3: "Azure Durable Functions 101"</h3>
         <p>
             Finally, the third session with Klaas Lauwers showed us how to build <span>scalable</span> and
             <span>reliable</span> serverless applications using Azure Durable Functions. This is

@@ -7,7 +7,7 @@
             compromise the security of our homes.
         </p>
 
-        <h1>The Revelation:</h1>
+        <h3>The Revelation:</h3>
 
         <p>
             In the seminar, Kems demonstrated that hacking garage doors is not only possible but achievable on a budget.
@@ -15,7 +15,7 @@
             well-known names like LiftMaster and Chamberlain, are not as secure as commonly believed.
         </p>
 
-        <h1>Key Takeaways:</h1>
+        <h3>Key Takeaways:</h3>
 
         <ul>
             <li>
@@ -37,7 +37,7 @@
             </li>
         </ul>
 
-        <h1>Security Measures and Precautions:</h1>
+        <h3>Security Measures and Precautions:</h3>
 
         <ul>
             <li>
@@ -54,7 +54,7 @@
             </li>
         </ul>
 
-        <h1>Conclusion:</h1>
+        <h3>Conclusion:</h3>
 
         <p>
             Trevor Kems' seminar has undoubtedly disrupted the perception of garage door security. The vulnerabilities

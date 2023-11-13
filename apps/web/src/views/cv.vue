@@ -1,4 +1,5 @@
 <template>
+    <h1>CV</h1>
     <div>
         <h2>Experiences</h2>
         <div>

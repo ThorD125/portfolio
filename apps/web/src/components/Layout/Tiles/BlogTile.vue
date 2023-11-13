@@ -1,6 +1,6 @@
 <template>
       <div class="hover:cursor-pointer hover:text-accent hover:underline duration-300" @click="toggleDiv">
-        <h1>{{ props.title }}</h1>
+        <h2>{{ props.title }}</h2>
       </div>
       <div v-show="!showFirstDiv">
         <slot></slot>
