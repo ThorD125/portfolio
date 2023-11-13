@@ -4,7 +4,7 @@ import PathNotFound from '@/views/404.vue';
 import AccessDenied from '@/views/Acces-denied.vue';
 import Home from '@/views/Home.vue';
 import Present from '@/views/Present.vue';
-import Test from '@/components/Layout/Pages/test.vue';
+import Test from '@/views/test.vue';
 import Cv from '@/views/CvWrapper.vue';
 
 export const routes: RouteRecordRaw[] = [
