@@ -7,7 +7,7 @@
             compromise the security of our homes.
         </p>
 
-        <h2>The Revelation:</h2>
+        <h1>The Revelation:</h1>
 
         <p>
             In the seminar, Kems demonstrated that hacking garage doors is not only possible but achievable on a budget.
@@ -15,46 +15,46 @@
             well-known names like LiftMaster and Chamberlain, are not as secure as commonly believed.
         </p>
 
-        <h2>Key Takeaways:</h2>
+        <h1>Key Takeaways:</h1>
 
         <ul>
             <li>
-                <strong>Vulnerability of Chamberlain Group Products:</strong> Garage door openers from the Chamberlain
+                <span>Vulnerability of Chamberlain Group Products:</span> Garage door openers from the Chamberlain
                 Group, often trusted for their reliability, were shown to be susceptible to hacking. Kems highlighted
                 that these devices, despite their widespread use, harbor vulnerabilities that can be exploited with
                 relative ease.
             </li>
             <li>
-                <strong>Inadequacies of Security Protocols:</strong> Security protocols such as Security Plus and
+                <span>Inadequacies of Security Protocols:</span> Security protocols such as Security Plus and
                 Security Plus 2.0, designed to protect garage door openers from unauthorized access, were scrutinized.
                 It was revealed that while these protocols offer some level of security, they lack complete encryption,
                 leaving them open to manipulation.
             </li>
             <li>
-                <strong>Affordable Hardware for Hacking:</strong> Kems demonstrated the use of budget-friendly hardware,
+                <span>Affordable Hardware for Hacking:</span> Kems demonstrated the use of budget-friendly hardware,
                 including ESP32 and CC1101, to intercept and manipulate RF signals. This implies that an attacker with
                 minimal resources could potentially gain unauthorized access to a garage.
             </li>
         </ul>
 
-        <h2>Security Measures and Precautions:</h2>
+        <h1>Security Measures and Precautions:</h1>
 
         <ul>
             <li>
-                <strong>Door Separation and Additional Security Technology:</strong> To counteract these
+                <span>Door Separation and Additional Security Technology:</span> To counteract these
                 vulnerabilities, Kems recommended practical measures such as securing the door between the house and the
                 garage. This additional layer of physical security adds an extra barrier for potential intruders.
                 Moreover, investing in advanced security technologies can further fortify the garage's defenses.
             </li>
             <li>
-                <strong>Choosing Reliable Garage Door Openers:</strong> Not all garage door openers are created equal.
-                Attendees were advised to carefully select openers from reputable manufacturers with a strong track
+                <span>Choosing Reliable Garage Door Openers:</span> Not all garage door openers are created equal.
+                Attendees were advised to carefully select openers from reputable manufacturers with a span track
                 record in security. Prioritizing robust encryption and regularly updating firmware were highlighted as
                 essential elements in maintaining garage security.
             </li>
         </ul>
 
-        <h2>Conclusion:</h2>
+        <h1>Conclusion:</h1>
 
         <p>
             Trevor Kems' seminar has undoubtedly disrupted the perception of garage door security. The vulnerabilities

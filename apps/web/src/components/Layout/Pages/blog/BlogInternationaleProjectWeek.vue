@@ -1,5 +1,5 @@
 <template>
-    <div class="blog black">
+    <div>
         <p>
             In a globalized world, collaboration and innovation know no boundaries. This past week, a diverse group of
             talented individuals from around the world converged in the vibrant city of Barcelona, Spain, to embark on
@@ -8,7 +8,7 @@
             own applications.
         </p>
 
-        <h2>Day 1: Meet and Greet</h2>
+        <h1>Day 1: Meet and Greet</h1>
 
         <p>
             The week kicked off with a lively meet and greet session. Participants hailed from various corners of the
@@ -18,7 +18,7 @@
             mobile applications.
         </p>
 
-        <h2>Day 2: Training and Workshops</h2>
+        <h1>Day 2: Training and Workshops</h1>
 
         <p>
             The second day was all about getting to grips with MIT App Inventor. A series of hands-on workshops and
@@ -28,7 +28,7 @@
             simple apps and discovering the tool's user-friendly interface.
         </p>
 
-        <h2>Day 3: Brainstorming and Ideation</h2>
+        <h1>Day 3: Brainstorming and Ideation</h1>
 
         <p>
             With the fundamentals in place, day three was dedicated to ideation and brainstorming. Teams formed based on
@@ -37,7 +37,7 @@
             the day, each team had a clear vision of their app concept and the problem they aimed to address.
         </p>
 
-        <h2>Day 4: Prototype and Development</h2>
+        <h1>Day 4: Prototype and Development</h1>
 
         <p>
             The excitement was palpable as participants dove headfirst into app development. Guided by seasoned mentors
@@ -46,7 +46,7 @@
             to see their ideas take shape, as their apps moved closer to reality.
         </p>
 
-        <h2>Day 5: Testing and Refinement</h2>
+        <h1>Day 5: Testing and Refinement</h1>
 
         <p>
             With prototypes in hand, day five was dedicated to rigorous testing and refinement. Participants exchanged
@@ -55,7 +55,7 @@
             ensuring that the apps would be both user-friendly and effective.
         </p>
 
-        <h2>Day 6: Final Touches</h2>
+        <h1>Day 6: Final Touches</h1>
 
         <p>
             As the week neared its end, teams polished their apps and added the final touches. Graphics, animations, and
@@ -64,7 +64,7 @@
             the power of MIT App Inventor in enabling rapid app development.
         </p>
 
-        <h2>Day 7: Presentation and Celebration</h2>
+        <h1>Day 7: Presentation and Celebration</h1>
 
         <p>
             The grand finale of the project week arrived on day seven. Each team had the opportunity to present their
@@ -73,7 +73,7 @@
             efforts, appreciating the immense progress made in just one short week.
         </p>
 
-        <h2>Conclusion</h2>
+        <h1>Conclusion</h1>
 
         <p>
             The week in Barcelona, Spain, dedicated to creating apps with MIT App Inventor, exemplified the magic that

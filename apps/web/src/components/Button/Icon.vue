@@ -1,7 +1,7 @@
 <template>
     <button
         type="button"
-        class="inline-flex items-center px-2 py-2 text-sm font-medium rounded-md"
+        class="inline-flex items-center px-2 py-2 text-sm font-medium"
         :class="[
             `${props.bgColor} ${props.textColor} ${props.border} ${props.bgColorHover} ${props.shadow}`,
             props.disabled ? 'cursor-not-allowed opacity-50' : '',
@@ -22,9 +22,9 @@
         shadow?: string;
     }
     const props = withDefaults(defineProps<IProps>(), {
-        bgColor: 'bg-primary-900',
-        textColor: 'text-primary-500',
-        bgColorHover: 'hover:bg-primary-600',
+        bgColor: 'bg-black',
+        textColor: 'text-white',
+        bgColorHover: 'hover:bg-white',
         border: 'border border-transparent',
         disabled: false,
         shadow: 'shadow-sm',

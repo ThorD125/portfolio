@@ -9,24 +9,24 @@ import Cv from '@/views/CvWrapper.vue';
 
 export const routes: RouteRecordRaw[] = [
     {
-        path: '/portfolio/',
-        alias: ['/portfolio/home', '/'],
+        path: '/',
+        alias: ['/home', '/'],
         name: 'home',
         component: Home,
     },
     {
-        path: '/portfolio/access-denied',
+        path: '/access-denied',
         name: 'accessDenied',
         component: AccessDenied,
     },
     {
-        path: '/portfolio/404',
+        path: '/404',
         name: '404',
         component: PathNotFound,
         props: true,
     },
     {
-        path: '/portfolio/:pathMatch(.*)',
+        path: '/:pathMatch(.*)',
         redirect: '404',
     },
     {
@@ -35,7 +35,7 @@ export const routes: RouteRecordRaw[] = [
         component: Present,
     },
     {
-        path: '/portfolio/test/',
+        path: '/test/',
         alias: '/test',
         name: 'testign',
         component: Test,
