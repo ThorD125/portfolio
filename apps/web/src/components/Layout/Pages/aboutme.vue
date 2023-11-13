@@ -8,13 +8,17 @@
         <p>&lt;<span>Birthdate</span> 5 mei 2003\&gt;</p>
         <p>&lt;<span>Phone</span> +32 489 71 44 633\&gt;</p>
         <p>&lt;<span>Email</span> thor.demeestere@telenet.be\&gt;</p>
-        <p>&lt;<span>Linkedin</span> <ImageIcon src="linkedin" />\&gt;</p>
+        <p class="flex align-center hover:cursor-pointer" @click="openLinkedIn">&lt;<span>Linked</span>&nbsp;<ImageIcon src="linkedin" class="w-5 h-5" />&nbsp;\&gt;</p>
     </div>
 </div>
    
 </template>
 
 <script setup lang="ts">
+
+const openLinkedIn = () => {
+    window.open("https://www.linkedin.com/in/thor-demeestere/", "_blank");
+}
 
 </script>
 

@@ -5,6 +5,7 @@ import AccessDenied from '@/views/Acces-denied.vue';
 import Home from '@/views/Home.vue';
 import Present from '@/views/Present.vue';
 import Test from '@/components/Layout/Pages/test.vue';
+import Cv from '@/views/CvWrapper.vue';
 
 export const routes: RouteRecordRaw[] = [
     {
@@ -38,5 +39,10 @@ export const routes: RouteRecordRaw[] = [
         alias: '/test',
         name: 'testign',
         component: Test,
+    },
+    {
+        path: '/cv/',
+        name: 'cv',
+        component: Cv,
     },
 ];

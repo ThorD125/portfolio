@@ -25,11 +25,9 @@
 </script>
 
 <style scoped>
-img{
-    color: aliceblue !important;
-    fill: aqua !important;
-    background-color: darksalmon !important;
-    stroke: blueviolet;
-    
+img {
+    filter: invert(1);
+    widows: 100%;
+    height: 100%;
 }
 </style>
