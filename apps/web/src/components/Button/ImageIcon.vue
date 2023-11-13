@@ -1,10 +1,11 @@
 <template>
-    <img :src="getimage()">
+    &nbsp;&nbsp;<img class="w-5 h-5" :src="getimage()">&nbsp;
 </template>
 
 <script lang="ts" setup>
 
     import LinkedIn from "@/assets/icons/linkedin.svg";
+    import Github from "@/assets/icons/github.svg";
 
 
     interface IProps {
@@ -18,6 +19,8 @@
         switch (props.src) {
             case "linkedin":
                 return LinkedIn;
+            case "github":
+                return Github;
             default:
                 return "test";
         }
@@ -27,7 +30,6 @@
 <style scoped>
 img {
     filter: invert(1);
-    widows: 100%;
     height: 100%;
 }
 </style>

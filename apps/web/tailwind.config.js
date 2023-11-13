@@ -38,14 +38,19 @@ module.exports = {
                 },
                 h1: {
                     fontSize: '2rem',
-                    marginBottom: '3rem',
+                    marginBottom: '2rem',
                     marginTop: '3rem',
                     fontWeight: '700',
                 },
                 h2: {
                     fontSize: '1.5rem',
-                    marginBottom: '2rem',
+                    marginBottom: '1rem',
                     marginTop: '2rem',
+                },
+                h3: {
+                    fontSize: '1.3rem',
+                    marginBottom: '0.5rem',
+                    marginTop: '1rem',
                 },
             });
         }),
