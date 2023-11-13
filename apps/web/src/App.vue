@@ -17,7 +17,7 @@
             <Color color="#ff00ff" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor" :selected="true"></Color>
             <Color color="red" :currentcolor="currentColor" @actualsetcolor="actualsetcurrentcolor"></Color>
         </div> -->
-        <TabNav to="/about">About me</TabNav>
+        <TabNav to="/">About me</TabNav>
         <TabNav to="/CV">CV</TabNav>
         <TabNav to="/blog">Blog</TabNav>
         <TabNav to="/projects">Projects</TabNav>
