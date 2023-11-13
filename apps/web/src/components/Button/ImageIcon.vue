@@ -1,11 +1,16 @@
 <template>
-    &nbsp;&nbsp;<img class="w-5 h-5" :src="getimage()">&nbsp;
+    &nbsp;&nbsp;<img class="w-5 h-5 my-auto" :src="getimage()">&nbsp;
 </template>
 
 <script lang="ts" setup>
 
     import LinkedIn from "@/assets/icons/linkedin.svg";
     import Github from "@/assets/icons/github.svg";
+    import School from "@/assets/icons/school.svg";
+    import Student from "@/assets/icons/student.svg";
+    import Phone from "@/assets/icons/phone.svg";
+    import Birthday from "@/assets/icons/birthday.svg";
+    import Email from "@/assets/icons/email.svg";
 
 
     interface IProps {
@@ -21,6 +26,16 @@
                 return LinkedIn;
             case "github":
                 return Github;
+            case "school":
+                return School;
+            case "email":
+                return Email;
+            case "student":
+                return Student;
+            case "phone":
+                return Phone;
+            case "birthday":
+                return Birthday;
             default:
                 return "test";
         }
