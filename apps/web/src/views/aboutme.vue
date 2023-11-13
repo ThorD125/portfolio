@@ -9,7 +9,7 @@
         <p>&lt;<span>Phone</span> +32 489 71 44 633\&gt;</p>
         <p>&lt;<span>Email</span> thor.demeestere@telenet.be\&gt;</p>
         <p class="flex align-center hover:cursor-pointer" @click="openLinkedIn">&lt;<span>Linked</span>&nbsp;<ImageIcon src="linkedin" class="w-5 h-5" />&nbsp;\&gt;</p>
-        <p>&lt;<span>Github</span> https://github.com/ThorD125?tab=repositories \&gt;</p>
+        <p class="flex align-center hover:cursor-pointer" @click="openGithub">&lt;<span>Github</span> <ImageIcon src="github" class="w-5 h-5" /> \&gt;</p>
     </div>
 </div>
    
@@ -19,6 +19,10 @@
 
 const openLinkedIn = () => {
     window.open("https://www.linkedin.com/in/thor-demeestere/", "_blank");
+}
+
+const openGithub = () => {
+    window.open("https://github.com/ThorD125?tab=repositories", "_blank");
 }
 
 </script>

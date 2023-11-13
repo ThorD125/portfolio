@@ -2,15 +2,17 @@ import { RouteRecordRaw } from 'vue-router';
 
 import PathNotFound from '@/views/404.vue';
 import AccessDenied from '@/views/Acces-denied.vue';
-import Home from '@/views/Home.vue';
+import Home from '@/views/aboutme.vue';
 import Present from '@/views/Present.vue';
 import Test from '@/views/test.vue';
-import Cv from '@/views/CvWrapper.vue';
+import Cv from '@/views/cv.vue';
+import blog from '@/views/blog.vue';
+import projects from '@/views/projects.vue';
 
 export const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        alias: ['/home', '/'],
+        alias: ['/home', '/', '/about'],
         name: 'home',
         component: Home,
     },
@@ -42,7 +44,20 @@ export const routes: RouteRecordRaw[] = [
     },
     {
         path: '/cv/',
+        alias: ['/cv'],
         name: 'cv',
         component: Cv,
+    },
+    {
+        path: '/blog/',
+        alias: ['/blog'],
+        name: 'blog',
+        component: blog,
+    },
+    {
+        path: '/projects/',
+        alias: ['/project', '/projects', '/project', '/project/'],
+        name: 'projects',
+        component: projects,
     },
 ];

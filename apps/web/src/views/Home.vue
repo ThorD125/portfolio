@@ -1,7 +1,6 @@
 <template>
     <div class="navbar flex justify-end w-full h-min max-h-[10%]">
         <a href="#/">Home</a> |
-        <a href="#/about">About</a> |
         <a href="#/non-existent-path">Broken Link</a>
         <!-- <TabNav tab="Javascript" :currentTab="currentTab" @actualsettab="actualsettab" /> -->
         <!-- <TabNav tab="About me" :currentTab="currentTab" @actualsettab="actualsettab" /> -->

@@ -1,16 +1,12 @@
 <template>
-    <button class="h-fit p-1 mx-5 hover:underline" :class="tab == currentTab ? 'font-bold' : ''" @click="emit('actualsettab', props.tab)">
-        {{ props.tab }}
-    </button>
+
+    <router-link class="h-fit p-1 mx-5 hover:underline" :to="to"><slot></slot></router-link>
+    
 </template>
 
 <script lang="ts" setup>
-    import { onMounted } from 'vue';
-    import { ref } from 'vue';
-
     interface IProps {
-        tab: string;
-        currentTab: string;
+        to: string;
 
         default?: boolean;
     }
@@ -18,13 +14,6 @@
         default: false,
     });
 
-    const emit = defineEmits(['actualsettab']);
-
-    onMounted(() => {
-        if (props.default) {
-            emit('actualsettab', props.tab);
-        }
-    });
 </script>
 
 <style scoped></style>
