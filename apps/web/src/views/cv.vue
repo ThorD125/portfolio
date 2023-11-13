@@ -74,7 +74,7 @@
     </div>
     <div class="md:flex">
         <div class="md:w-[50%] md:pr-5">
-            <h2>plus points</h2>
+            <h2>Plus-punten</h2>
             <div>
                 <p>Gedreven werker:</p>
                 <p>
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="md:w-[50%] md:pl-5">
-            <h2>min points</h2>
+            <h2>Min-puntjes</h2>
             <div>
                 <p>Dislectisch</p>
                 <p>Ik doe mijn best maar er zitten waarschijnlijk veel schrijffouten in mijn teksten.</p>

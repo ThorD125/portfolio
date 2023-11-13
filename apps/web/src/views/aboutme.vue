@@ -1,14 +1,14 @@
 <template>
-<div class="flex">
+<div class="flex h-full">
     <div class="h-fit m-auto p-5">        
-        <h1 class="m-0">&lt;About me\&gt;</h1>
-        <p>&lt;<span>School</span> Howest\&gt;</p>
-        <p>&lt;<span>Status</span> student\&gt;</p>
-        <p>&lt;<span>Birthdate</span> 5 mei 2003\&gt;</p>
-        <p>&lt;<span>Phone</span> +32 489 71 44 63\&gt;</p>
-        <p>&lt;<span>Email</span> thor.demeestere@telenet.be\&gt;</p>
-        <p class="flex align-center hover:cursor-pointer" @click="openLinkedIn">&lt;<span>Linked</span><ImageIcon src="linkedin"/>\&gt;</p>
-        <p class="flex align-center hover:cursor-pointer" @click="openGithub">&lt;<span>Github</span><ImageIcon src="github"/>\&gt;</p>
+        <h1 class="m-0">&lt;About me /&gt;</h1>
+        <p>&lt;<span>School</span> Howest /&gt;</p>
+        <p>&lt;<span>Status</span> student /&gt;</p>
+        <p>&lt;<span>Birthdate</span> 5 mei 2003 /&gt;</p>
+        <p>&lt;<span>Phone</span> +32 489 71 44 63 /&gt;</p>
+        <p>&lt;<span>Email</span> thor.demeestere@telenet.be /&gt;</p>
+        <p class="flex align-center hover:cursor-pointer" @click="openLinkedIn">&lt;<span>Linked</span><ImageIcon src="linkedin"/> /&gt;</p>
+        <p class="flex align-center hover:cursor-pointer" @click="openGithub">&lt;<span>Github</span><ImageIcon src="github"/> /&gt;</p>
     </div>
 </div>
    
