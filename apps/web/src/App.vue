@@ -28,6 +28,7 @@
             <RouterView :key="$route.fullPath" />
         </div>
     </div>
+    <footer class="w-full absolute bottom-0 flex justify-center items-center text-center h-[5vh]">Thor Demeestere · Powered by vue</footer>
 </template>
 <script setup lang="ts"></script>
 
