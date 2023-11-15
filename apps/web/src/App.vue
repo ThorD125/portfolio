@@ -16,8 +16,7 @@
         <TabNav to="/projects">Projects</TabNav>
 
         </div>
-        <div class="content w-full h-full max-h-[90%]" 
-    :class="$route.fullPath == '/'?'':'pr-5 overflow-y-scroll'">
+        <div class="content w-full h-full max-h-[90%]" :class="$route.fullPath == '/'?'':'pr-5 overflow-y-scroll'">
             <RouterView :key="$route.fullPath" />
         </div>
     </div>

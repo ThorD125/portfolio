@@ -44,7 +44,7 @@ export const routes: RouteRecordRaw[] = [
     },
     {
         path: '/cv/',
-        alias: ['/cv'],
+        alias: ['/cv', '/#/cv', '/index.html/cv'],
         name: 'cv',
         component: Cv,
     },
