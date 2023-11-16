@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="w-full h-fit">Blog</h1>
+        <h1 class="w-full h-fit">&lt;Blog /&gt;</h1>
         <BlogTile title="Secutec Security Summit">
             <BlogSecutecSecuritySummit />
         </BlogTile>
