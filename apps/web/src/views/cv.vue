@@ -3,8 +3,8 @@
     <div>
         <h2>Experiences</h2>
         <div>
-            <h3>Telivic</h3>
-            <p>juli-augustus 2022</p>
+            <h3><span class="font-bold">Telivic</span></h3>
+            <p class="text-xs">juli-augustus 2022</p>
             <p>
                 Ze hadden data van klanten in een database systeem die al 3 of vier keer werd samengevoegt met andere
                 verkregen data, waardoor deze er soms 4 keer in zaten onder een andere naam of met oudere emails, mijn
@@ -13,8 +13,8 @@
             </p>
         </div>
         <div>
-            <h3>Otomaties - Tom Broucke</h3>
-            <p>maart 2021</p>
+            <h3><span class="font-bold">Otomaties</span> - Tom Broucke</h3>
+            <p class="text-xs">maart 2021</p>
             <p>https://tombroucke.be/</p>
             <p>
                 Mijn opdrachten bestonden uit het ontwerpen van websites en deze in code omzetten en wordpress erop te
@@ -22,11 +22,12 @@
             </p>
         </div>
     </div>
+    <SectionBreak />
     <div>
         <h2>Education</h2>
         <div>
-            <h3>Bachelor toegepaste informatica - Cyber Security Professional</h3>
-            <p>2021-...</p>
+            <h3><span class="font-bold">Bachelor toegepaste informatica</span> - Cyber Security Professional</h3>
+            <p class="text-xs">2021-...</p>
             <p>Howest Brugge</p>
             <p>
                 Opleiding tot een innoverende en veelzijdige informaticus met specialisatie full stack-web ontwikkeling,
@@ -39,20 +40,21 @@
             </p>
         </div>
         <div>
-            <h3>Multimedia - Optie Visueel</h3>
-            <p>2015-2021</p>
+            <h3><span class="font-bold">Multimedia</span> - Optie Visueel</h3>
+            <p class="text-xs">2015-2021</p>
             <p>Athena Heule</p>
             <p>https://www.ah2ena-school.be/onze-school/campus-heule</p>
             <p>We leerden vooral gebruik maken van verschillende adobe programma's en websites maken.</p>
             Diploma behaald op 29 juni 2021
         </div>
         <div>
-            <h3>Industriele Wetenschappen</h3>
-            <p>2012-2015</p>
+            <h3><span class="font-bold">Industriele</span> Wetenschappen</h3>
+            <p class="text-xs">2012-2015</p>
             <p>Vti Menen</p>
             <p>Hier zagen we veel wiskunde.</p>
         </div>
     </div>
+    <SectionBreak />
     <div class="md:flex">
         <div class="md:w-[50%] md:pr-5">
             <h2>Skills</h2>
@@ -116,6 +118,8 @@
 
 <style scoped>
     h2 {
+        width: fit-content;
         margin-bottom: 1rem;
+        border-bottom: 0.4rem solid #42a5f5;
     }
 </style>

@@ -21,6 +21,7 @@ declare module 'vue' {
     ProjectTile: typeof import('./src/components/Layout/Tiles/ProjectTile.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SectionBreak: typeof import('./src/components/Layout/General/SectionBreak.vue')['default']
     SidePanel: typeof import('./src/components/SidePanel.vue')['default']
     Spacer: typeof import('./src/components/Layout/General/Spacer.vue')['default']
     Swap: typeof import('./src/components/Button/Swap.vue')['default']
