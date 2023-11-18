@@ -2,13 +2,15 @@
 <div class="flex h-full">
     <div class="h-fit m-auto p-5">        
         <h1 class="m-0 my-1">&lt;About me /&gt;</h1>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold">&lt;<span>School</span><ImageIcon src="school"/> Howest /&gt;</p>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold">&lt;<span>Status</span><ImageIcon src="student"/> student /&gt;</p>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold">&lt;<span>Birthdate</span><ImageIcon src="birthday"/> 5 mei 2003 /&gt;</p>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openPhone">&lt;<span>Phone</span><ImageIcon src="phone"/> /&gt;</p>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openEmail">&lt;<span>Email</span><ImageIcon src="email"/> /&gt;</p>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openLinkedIn">&lt;<span>Linked</span><ImageIcon src="linkedin"/> /&gt;</p>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openGithub">&lt;<span>Github</span><ImageIcon src="github"/> /&gt;</p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>School</span><ImageIcon src="school"/> Howest </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Status</span><ImageIcon src="student"/> student </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Birthdate</span><ImageIcon src="birthday"/> 5 mei 2003 </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Adress</span><ImageIcon src="adress"/> Menen, België </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Nationaliteit</span><ImageIcon src="school"/> Belg </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openPhone"><span>Phone</span><ImageIcon src="phone"/> </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openEmail"><span>Email</span><ImageIcon src="email"/> </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openLinkedIn"><span>Linked</span><ImageIcon src="linkedin"/> </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openGithub"><span>Github</span><ImageIcon src="github"/> </p>
     </div>
 </div>
    

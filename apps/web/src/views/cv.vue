@@ -3,7 +3,7 @@
     <div>
         <h2>&lt;Experiences /&gt;</h2>
         <div>
-            <h3>&lt;<span class="font-bold">Telivic</span> /&gt;</h3>
+            <h3><span class="font-bold">Telivic</span></h3>
             <p class="text-xs">juli-augustus 2022</p>
             <p>
                 Ze hadden data van klanten in een database systeem die al 3 of vier keer werd samengevoegt met andere
@@ -13,7 +13,7 @@
             </p>
         </div>
         <a href="https://tombroucke.be/" target="_blank">
-            <h3>&lt;<span class="font-bold">Otomaties</span> - Tom Broucke /&gt;</h3>
+            <h3><span class="font-bold">Otomaties</span> - Tom Broucke</h3>
             <p class="text-xs">maart 2021</p>
             <p></p>
             <p>
@@ -26,8 +26,8 @@
     <div>
         <h2>&lt;Education /&gt;</h2>
         <div>
-            <h3>&lt;<span class="font-bold">Bachelor toegepaste informatica</span> - Cyber Security Professional /&gt;</h3>
-            <p class="text-xs">2021-...</p>
+            <h3><span class="font-bold">Bachelor toegepaste informatica</span> - Cyber Security Professional</h3>
+            <p class="text-xs">2021-heden</p>
             <p>Howest Brugge</p>
             <p>
                 Opleiding tot een innoverende en veelzijdige informaticus met specialisatie full stack-web ontwikkeling,
@@ -40,7 +40,7 @@
             </p>
         </div>
         <div>
-            <h3>&lt;<span class="font-bold">Multimedia</span> - Optie Visueel /&gt;</h3>
+            <h3><span class="font-bold">Multimedia</span> - Optie Visueel</h3>
             <p class="text-xs">2015-2021</p>
             <p>Athena Heule</p>
             <p>https://www.ah2ena-school.be/onze-school/campus-heule</p>
@@ -48,16 +48,19 @@
             Diploma behaald op 29 juni 2021
         </div>
         <div>
-            <h3>&lt;<span class="font-bold">Industriele</span> Wetenschappen /&gt;</h3>
+            <h3><span class="font-bold">Industriele</span> Wetenschappen</h3>
             <p class="text-xs">2012-2015</p>
             <p>Vti Menen</p>
-            <p>Hier zagen we veel wiskunde.</p>
+            <p>
+                We hadden een praktijkgerichte benadering van technologie en engineering, stimuleerde ons om innovatieve
+                oplossingen te ontwikkelen voor complexe industriële uitdagingen.
+            </p>
         </div>
     </div>
     <SectionBreak />
     <div class="md:flex">
         <div class="md:w-[50%] md:pr-5">
-            <h2>&lt;Skills /&gt;</h2>
+            <h2>Skills</h2>
             <ul>
                 <li>python</li>
                 <li>.net</li>
@@ -69,15 +72,31 @@
             </ul>
         </div>
         <div class="md:w-[50%] md:pl-5">
-            <h2>&lt;Certificaten /&gt;</h2>
+            <h2>Certificaten</h2>
 
-            <p>SODA-attest</p>
             <p>CEH</p>
+            <p>Rijbewijs b</p>
+            <p>SODA-attest</p>
         </div>
     </div>
     <div class="md:flex">
         <div class="md:w-[50%] md:pr-5">
-            <h2>&lt;Plus-punten /&gt;</h2>
+            <h2>Hobby's</h2>
+
+            <p>Gamen</p>
+            <p>Programmeren</p>
+            <p>Scripten</p>
+        </div>
+        <div class="md:w-[50%] md:pl-5">
+            <h2>Talen</h2>
+
+            <p>Nederlands</p>
+            <p>Engels</p>
+        </div>
+    </div>
+    <div class="md:flex">
+        <div class="md:w-[50%] md:pr-5">
+            <h2>Plus-punten</h2>
             <div>
                 <p>Gedreven werker:</p>
                 <p>
@@ -97,7 +116,7 @@
             </div>
         </div>
         <div class="md:w-[50%] md:pl-5">
-            <h2>&lt;Min-puntjes /&gt;</h2>
+            <h2>Min-puntjes</h2>
             <div>
                 <p>Dislectisch</p>
                 <p>Ik doe mijn best maar er zitten waarschijnlijk veel schrijffouten in mijn teksten.</p>
@@ -118,8 +137,8 @@
 
 <style scoped>
     h2 {
-        width: fit-content;
+        /* width: fit-content; */
         margin-bottom: 1rem;
-        border-bottom: 0.4rem solid #42a5f5;
+        /* border-bottom: 0.4rem solid #42a5f5; */
     }
 </style>

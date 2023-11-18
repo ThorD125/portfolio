@@ -11,6 +11,7 @@
     import Phone from "@/assets/icons/phone.svg";
     import Birthday from "@/assets/icons/birthday.svg";
     import Email from "@/assets/icons/email.svg";
+    import Address from "@/assets/icons/address.svg";
 
 
     interface IProps {
@@ -36,6 +37,8 @@
                 return Phone;
             case "birthday":
                 return Birthday;
+            case "adress":
+                return Address;
             default:
                 return "test";
         }
@@ -45,6 +48,10 @@
 <style scoped>
 img {
     filter: invert(1);
+    height: 100%;
+}
+p:hover img {
+    filter: invert(0.9);
     height: 100%;
 }
 </style>

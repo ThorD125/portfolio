@@ -41,16 +41,19 @@ module.exports = {
                     marginBottom: '2rem',
                     marginTop: '3rem',
                     fontWeight: '700',
+                    color: '#ffffff',
                 },
                 h2: {
                     fontSize: '1.5rem',
                     marginBottom: '1rem',
                     marginTop: '2rem',
+                    color: '#ffffff',
                 },
                 h3: {
                     fontSize: '1.3rem',
                     marginBottom: '0.5rem',
                     marginTop: '1rem',
+                    color: '#ffffff',
                 },
             });
         }),
