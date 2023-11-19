@@ -43,7 +43,7 @@
             <h3><span class="font-bold">Multimedia</span> - Optie Visueel</h3>
             <p class="text-xs">2015-2021</p>
             <p>Athena Heule</p>
-            <p>https://www.ah2ena-school.be/onze-school/campus-heule</p>
+            <p>https://www.athena-school.be/onze-school/campus-heule</p>
             <p>We leerden vooral gebruik maken van verschillende adobe programma's en websites maken.</p>
             Diploma behaald op 29 juni 2021
         </div>
