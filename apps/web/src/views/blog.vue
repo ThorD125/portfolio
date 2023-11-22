@@ -1,6 +1,9 @@
 <template>
     <div>
         <h1 class="w-full h-fit">&lt;Blog /&gt;</h1>
+        <BlogTile title="Conxion">
+            <BlogConxion />
+        </BlogTile>
         <BlogTile title="Secutec Security Summit">
             <BlogSecutecSecuritySummit />
         </BlogTile>
@@ -19,7 +22,9 @@
     </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import BlogConxion from '@/components/Layout/Pages/blog/BlogConxion.vue';
+</script>
 
 <style scoped>
 </style>

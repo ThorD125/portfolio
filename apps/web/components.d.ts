@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     BlogCloudCafe: typeof import('./src/components/Layout/Pages/blog/BlogCloudCafe.vue')['default']
+    BlogConxion: typeof import('./src/components/Layout/Pages/blog/BlogConxion.vue')['default']
     BlogDigitilizeFlanders: typeof import('./src/components/Layout/Pages/blog/BlogDigitilizeFlanders.vue')['default']
     BlogHackingGarageDoorsWithRF: typeof import('./src/components/Layout/Pages/blog/BlogHackingGarageDoorsWithRF.vue')['default']
     BlogInternationaleProjectWeek: typeof import('./src/components/Layout/Pages/blog/BlogInternationaleProjectWeek.vue')['default']
