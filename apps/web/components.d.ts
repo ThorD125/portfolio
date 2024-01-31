@@ -9,6 +9,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     BlogCloudCafe: typeof import('./src/components/Layout/Pages/blog/BlogCloudCafe.vue')['default']
     BlogConxion: typeof import('./src/components/Layout/Pages/blog/BlogConxion.vue')['default']
+    BlogCyberSecChalenge2023: typeof import('./src/components/Layout/Pages/blog/BlogCyberSecChalenge2023.vue')['default']
     BlogDigitilizeFlanders: typeof import('./src/components/Layout/Pages/blog/BlogDigitilizeFlanders.vue')['default']
     BlogFirstPost: typeof import('./src/components/Layout/Pages/blog/BlogFirstPost.vue')['default']
     BlogGoogleIP: typeof import('./src/components/Layout/Pages/blog/BlogGoogleIP.vue')['default']

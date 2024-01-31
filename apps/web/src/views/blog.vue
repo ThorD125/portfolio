@@ -22,6 +22,9 @@
         <BlogTile title="International Project Week">
             <BlogInternationaleProjectWeek />
         </BlogTile>
+        <BlogTile title="A Memorable Journey into the World of Cybersecurity: Our 2023 CTF Experience">
+            <BlogCyberSecChalenge2023/>
+        </BlogTile>
         <BlogTile title="Welcome to my blog!">
             <BlogFirstPost/>
         </BlogTile>
