@@ -3,7 +3,7 @@
     <div>
         <h2>&lt;Experiences /&gt;</h2>
         <div>
-            <h3><span class="font-bold">Telivic</span></h3>
+            <h3><span class="font-bold">Televic</span></h3>
             <p class="text-xs">juli-augustus 2022</p>
             <p>
                 Ze hadden data van klanten in een database systeem die al 3 of vier keer werd samengevoegt met andere

@@ -2,11 +2,10 @@
 <div class="flex h-full">
     <div class="h-fit m-auto p-5">        
         <h1 class="m-0 my-1">&lt;About me /&gt;</h1>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Naam</span><ImageIcon src="user"/> Thor Demeestere </p>
+        <p class="flex align-center hover:cursor-pointer hover:font-bold">Naam Thor Demeestere </p>
         <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>School</span><ImageIcon src="school"/> Howest </p>
         <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Status</span><ImageIcon src="student"/> student </p>
         <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Birthdate</span><ImageIcon src="birthday"/> 5 mei 2003 </p>
-        <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>Adress</span><ImageIcon src="adress"/> Menen, België </p>
         <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openPhone"><span>Phone</span><ImageIcon src="phone"/> </p>
         <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openEmail"><span>Email</span><ImageIcon src="email"/> </p>
         <p class="flex align-center hover:cursor-pointer hover:font-bold" @click="openLinkedIn"><span>Linked</span><ImageIcon src="linkedin"/> </p>
