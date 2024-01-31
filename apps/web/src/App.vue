@@ -14,6 +14,7 @@
         <TabNav to="/CV">CV</TabNav>
         <TabNav to="/blog">Blog</TabNav>
         <TabNav to="/projects">Projects</TabNav>
+        <TabNav to="/console">Console</TabNav>
 
         </div>
         <div class="content w-full h-full max-h-[90%]" :class="$route.fullPath == '/'?'':'pr-5 overflow-y-scroll'">

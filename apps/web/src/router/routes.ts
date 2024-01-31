@@ -8,6 +8,7 @@ import Test from '@/views/test.vue';
 import Cv from '@/views/cv.vue';
 import blog from '@/views/blog.vue';
 import projects from '@/views/projects.vue';
+import console from '@/views/Console.vue';
 
 export const routes: RouteRecordRaw[] = [
     {
@@ -53,6 +54,12 @@ export const routes: RouteRecordRaw[] = [
         alias: ['/blog'],
         name: 'blog',
         component: blog,
+    },
+    {
+        path: '/console/',
+        alias: ['/console'],
+        name: 'console',
+        component: console,
     },
     {
         path: '/projects/',
