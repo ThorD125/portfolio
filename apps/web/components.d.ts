@@ -10,6 +10,7 @@ declare module 'vue' {
     BlogCloudCafe: typeof import('./src/components/Layout/Pages/blog/BlogCloudCafe.vue')['default']
     BlogConxion: typeof import('./src/components/Layout/Pages/blog/BlogConxion.vue')['default']
     BlogDigitilizeFlanders: typeof import('./src/components/Layout/Pages/blog/BlogDigitilizeFlanders.vue')['default']
+    BlogFirstPost: typeof import('./src/components/Layout/Pages/blog/BlogFirstPost.vue')['default']
     BlogGoogleIP: typeof import('./src/components/Layout/Pages/blog/BlogGoogleIP.vue')['default']
     BlogGoogleIPV6: typeof import('./src/components/Layout/Pages/blog/BlogGoogleIPV6.vue')['default']
     BlogHackingGarageDoorsWithRF: typeof import('./src/components/Layout/Pages/blog/BlogHackingGarageDoorsWithRF.vue')['default']

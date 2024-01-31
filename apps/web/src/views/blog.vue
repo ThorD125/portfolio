@@ -22,6 +22,9 @@
         <BlogTile title="International Project Week">
             <BlogInternationaleProjectWeek />
         </BlogTile>
+        <BlogTile title="Welcome to my blog!">
+            <BlogFirstPost/>
+        </BlogTile>
     </div>
 </template>
 
