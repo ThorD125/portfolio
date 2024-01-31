@@ -1,35 +1,17 @@
 <template>
-    <div>
-        <button class="w-full h-fit" :class="tab == currentTab ? 'font-semibold': ''" @click="emit('actualsettab', props.tab)">
-        {{ props.tab }}  
-        </button>
-    </div>
-</template>
+
+    <router-link class="h-fit p-1 mx-5 hover:underline" :class="$route.fullPath == to?'font-semibold underline hover:no-underline':''" :to="to">&lt;<slot></slot> /&gt;</router-link>
+    </template>
 
 <script lang="ts" setup>
-    
-import { onMounted } from 'vue';
-import { ref } from 'vue';
+    interface IProps {
+        to: string;
 
-
-interface IProps {
-    tab: string;
-    currentTab: string;
-    
-    default?: boolean;
-}
-const props = withDefaults(defineProps<IProps>(), {
-    default: false,
-});
-
-const emit = defineEmits(['actualsettab']);
-
-onMounted(() => {
-    if (props.default) {
-        emit('actualsettab', props.tab);
+        default?: boolean;
     }
-})
-
+    const props = withDefaults(defineProps<IProps>(), {
+        default: false,
+    });
 
 </script>
 
