@@ -19,6 +19,9 @@
         <BlogTile title="Digitilize Flanders">
             <BlogDigitilizeFlanders />
         </BlogTile>
+        <BlogTile title="Stagemarkt">
+            <BlogStagemarkt />
+        </BlogTile>
         <BlogTile title="International Project Week">
             <BlogInternationaleProjectWeek />
         </BlogTile>

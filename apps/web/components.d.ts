@@ -17,6 +17,7 @@ declare module 'vue' {
     BlogHackingGarageDoorsWithRF: typeof import('./src/components/Layout/Pages/blog/BlogHackingGarageDoorsWithRF.vue')['default']
     BlogInternationaleProjectWeek: typeof import('./src/components/Layout/Pages/blog/BlogInternationaleProjectWeek.vue')['default']
     BlogSecutecSecuritySummit: typeof import('./src/components/Layout/Pages/blog/BlogSecutecSecuritySummit.vue')['default']
+    BlogStagemarkt: typeof import('./src/components/Layout/Pages/blog/BlogStagemarkt.vue')['default']
     BlogTemplate: typeof import('./src/components/Layout/Pages/blog/BlogTemplate.vue')['default']
     BlogTile: typeof import('./src/components/Layout/Tiles/BlogTile.vue')['default']
     Color: typeof import('./src/components/Button/Color.vue')['default']
