@@ -13,7 +13,7 @@
 
 import { ref } from "vue";
 
-var result = ref<string>("output");
+let result = ref<string>("output");
 
 const getResult = (e) => {
     const text = e.target.value;

@@ -1,7 +1,7 @@
 
 <template>
     <div>
-        <a href="{{ props.href }}" class="underline hover:text-accent decoration-black decoration-solid underline-offset-4 decoration-3 hover:font-bold">{{ urlText }}</a>
+        <a :href="props.href" class="underline hover:text-accent decoration-black decoration-solid underline-offset-4 decoration-3 hover:font-bold">{{ urlText }}</a>
     </div>
 </template>
 

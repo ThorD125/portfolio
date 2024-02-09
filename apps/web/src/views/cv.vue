@@ -74,6 +74,7 @@
         <div class="md:w-[50%] md:pl-5">
             <h2>Certificaten</h2>
 
+            <p>Cisco Networking Academy: CyberOps Associate</p>
             <p>CEH</p>
             <p>Rijbewijs b</p>
             <p>SODA-attest</p>
