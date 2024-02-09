@@ -4,6 +4,9 @@
         <BlogTile title="Embrace the Future of the Internet with Belgian IPv6 Council Meetups">
             <BlogGoogleIP/>
         </BlogTile>
+        <BlogTile title="Dcstar Hosting Company Visit">
+            <BlogHostingCompanyVisit />
+        </BlogTile>
         <BlogTile title="Conxion">
             <BlogConxion />
         </BlogTile>
@@ -36,6 +39,7 @@
 
 <script setup lang="ts">
 import BlogConxion from '@/components/Layout/Pages/blog/BlogConxion.vue';
+import BlogHostingCompanyVisit from '@/components/Layout/Pages/blog/BlogHostingCompanyVisit.vue';
 </script>
 
 <style scoped>
