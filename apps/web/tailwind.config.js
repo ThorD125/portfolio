@@ -17,7 +17,7 @@ module.exports = {
                 xxxl: '3200px',
             },
             colors: {
-                black: '#212121',
+                black: '#0f0f0f',
                 white: '#dadada',
                 accent: '#42a5f5',
             },
