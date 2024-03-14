@@ -1,6 +1,6 @@
 <template>
 <div class="flex h-full">
-    <div class="h-fit m-auto p-5">        
+    <div class="h-fit m-auto w-[90vw] md:w-auto md:p-5">        
         <h1 class="m-0 my-1">&lt;About me /&gt;</h1>
         <p class="flex align-center hover:cursor-pointer hover:font-bold">Naam Thor Demeestere </p>
         <p class="flex align-center hover:cursor-pointer hover:font-bold"><span>School</span><ImageIcon src="school"/> Howest </p>

@@ -59,7 +59,7 @@
     </div>
     <SectionBreak />
     <div class="md:flex">
-        <div class="md:w-[50%] md:pr-5">
+        <div class="w-[90vw] md:w-[50vw] md:pr-5">
             <h2>Skills</h2>
             <ul>
                 <li>python</li>
@@ -71,7 +71,7 @@
                 <li>kotlin</li>
             </ul>
         </div>
-        <div class="md:w-[50%] md:pl-5">
+        <div class="w-[90vw] md:w-[50vw] md:pl-5">
             <h2>Certificaten</h2>
 
             <p>Cisco Networking Academy: CyberOps Associate</p>
@@ -81,14 +81,14 @@
         </div>
     </div>
     <div class="md:flex">
-        <div class="md:w-[50%] md:pr-5">
+        <div class="w-[90vw] md:w-[50vw] md:pr-5">
             <h2>Hobby's</h2>
 
             <p>Gamen</p>
             <p>Programmeren</p>
             <p>Scripten</p>
         </div>
-        <div class="md:w-[50%] md:pl-5">
+        <div class="w-[90vw] md:w-[50vw] md:pl-5">
             <h2>Talen</h2>
 
             <p>Nederlands</p>
@@ -96,7 +96,7 @@
         </div>
     </div>
     <div class="md:flex">
-        <div class="md:w-[50%] md:pr-5">
+        <div class="w-[90vw] md:w-[50vw] md:pr-5">
             <h2>Plus-punten</h2>
             <div>
                 <p>Gedreven werker:</p>
@@ -116,7 +116,7 @@
                 </p>
             </div>
         </div>
-        <div class="md:w-[50%] md:pl-5">
+        <div class="w-[90vw] md:w-[50vw] md:pl-5">
             <h2>Min-puntjes</h2>
             <div>
                 <p>Dislectisch</p>

@@ -39,7 +39,7 @@ module.exports = {
                 h1: {
                     fontSize: '2rem',
                     marginBottom: '2rem',
-                    marginTop: '3rem',
+                    marginTop: '1rem',
                     fontWeight: '700',
                     color: '#ffffff',
                 },
