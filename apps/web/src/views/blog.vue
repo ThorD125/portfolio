@@ -1,5 +1,4 @@
 <template>
-    <div>
         <h1 class="w-full h-fit">&lt;Blog /&gt;</h1>
         <BlogTile title="Embrace the Future of the Internet with Belgian IPv6 Council Meetups">
             <BlogGoogleIP/>
@@ -34,7 +33,6 @@
         <BlogTile title="Welcome to my blog!">
             <BlogFirstPost/>
         </BlogTile>
-    </div>
 </template>
 
 <script setup lang="ts">
