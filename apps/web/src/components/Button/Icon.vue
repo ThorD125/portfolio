@@ -1,7 +1,7 @@
 <template>
     <button
         type="button"
-        class="inline-flex items-center px-2 py-2 text-sm font-medium"
+        class="inline-flex items-center text-sm font-medium"
         :class="[
             `${props.bgColor} ${props.textColor} ${props.border} ${props.bgColorHover} ${props.shadow}`,
             props.disabled ? 'cursor-not-allowed opacity-50' : '',

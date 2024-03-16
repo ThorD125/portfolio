@@ -17,7 +17,7 @@ module.exports = {
                 xxxl: '3200px',
             },
             colors: {
-                black: '#0f0f0f',
+                black: '#14171c',
                 white: '#dadada',
                 accent: '#42a5f5',
             },
@@ -39,7 +39,7 @@ module.exports = {
                 h1: {
                     fontSize: '2rem',
                     marginBottom: '2rem',
-                    marginTop: '3rem',
+                    marginTop: '1rem',
                     fontWeight: '700',
                     color: '#ffffff',
                 },
