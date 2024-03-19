@@ -1,27 +1,34 @@
 <template>
-    <h1>&lt;CV /&gt;</h1>
-    <div>
-        <h2>&lt;Experiences /&gt;</h2>
-        <div>
-            <h3><span class="font-bold">Televic</span></h3>
-            <p class="text-xs">juli-augustus 2022</p>
-            <p>
-                Ze hadden data van klanten in een database systeem die al 3 of vier keer werd samengevoegt met andere
-                verkregen data, waardoor deze er soms 4 keer in zaten onder een andere naam of met oudere emails, mijn
-                taak was dan om deze op te ruimen, hiernaast werkte ik ook nog aan hun crm om kleine dingen aan te
-                passen om voor hen het proces van opdrachten of invoices sneller en gemakkelijker in te kunnen geven
-            </p>
+    <h1 v-if="!props.download">&lt;CV /&gt;</h1>
+    <div :class="props.download ? 'flex' : ''">
+        <div :class="props.download ? 'w-[50%] pr-5' : 'w-[100%]'">
+            <h2>&lt;Experiences /&gt;</h2>
+            <div>
+                <h3><span class="font-bold">Televic</span></h3>
+                <p class="text-xs">juli-augustus 2022</p>
+                <p>
+                    Ze hadden data van klanten in een database systeem die al 3 of vier keer werd samengevoegt met
+                    andere verkregen data, waardoor deze er soms 4 keer in zaten onder een andere naam of met oudere
+                    emails, mijn taak was dan om deze op te ruimen, hiernaast werkte ik ook nog aan hun crm om kleine
+                    dingen aan te passen om voor hen het proces van opdrachten of invoices sneller en gemakkelijker in
+                    te kunnen geven
+                </p>
+            </div>
+            <a href="https://tombroucke.be/" target="_blank">
+                <h3><span class="font-bold">Otomaties</span> - Tom Broucke</h3>
+                <p class="text-xs">maart 2021</p>
+                <p></p>
+                <p>
+                    Mijn opdrachten bestonden uit het ontwerpen van websites en deze in code omzetten en wordpress erop
+                    te integreren.
+                </p>
+            </a>
         </div>
-        <a href="https://tombroucke.be/" target="_blank">
-            <h3><span class="font-bold">Otomaties</span> - Tom Broucke</h3>
-            <p class="text-xs">maart 2021</p>
-            <p></p>
-            <p>
-                Mijn opdrachten bestonden uit het ontwerpen van websites en deze in code omzetten en wordpress erop te
-                integreren.
-            </p>
-        </a>
+        <div :class="props.download ? 'pl-5 w-[50%]' : 'd-none'">
+            <slot></slot>
+        </div>
     </div>
+
     <SectionBreak />
     <div>
         <h2>&lt;Education /&gt;</h2>
@@ -134,7 +141,11 @@
     </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+    const props = defineProps<{
+        download: boolean;
+    }>();
+</script>
 
 <style scoped>
     h2 {

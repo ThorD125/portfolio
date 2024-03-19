@@ -1,9 +1,19 @@
 <template>
     <table class="table-auto">
-        <th>
-            <td class="text-2xl">Profiel</td>
-        </th>
         <tr>
+            
+            <td class="text-2xl" v-if="!props.download">
+                <h2>
+                    Profiel
+                </h2>
+            </td>
+            <td v-if="props.download" colspan="2">
+                <h2>
+                    &lt;Profiel /&gt;
+                </h2>
+            </td>
+        </tr>
+        <tr v-if="!props.download">
             <td class="font-bold">Naam</td>
             <td class="pl-3">Thor Demeestere</td>
         </tr>
@@ -35,6 +45,10 @@
 </template>
 
 <script setup lang="ts">
+
+    const props = defineProps<{
+        download: boolean;
+    }>();
     
 </script>
 
