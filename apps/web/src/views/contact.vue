@@ -1,6 +1,5 @@
 <template>
     <table class="table-auto">
-        test
         <th>
             <td class="text-2xl">Profiel</td>
         </th>
