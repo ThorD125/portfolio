@@ -7,11 +7,8 @@
                 <h3><span class="font-bold">Televic</span></h3>
                 <p class="text-xs">juli-augustus 2022</p>
                 <p>
-                    Ze hadden data van klanten in een database systeem die al 3 of vier keer werd samengevoegt met
-                    andere verkregen data, waardoor deze er soms 4 keer in zaten onder een andere naam of met oudere
-                    emails, mijn taak was dan om deze op te ruimen, hiernaast werkte ik ook nog aan hun crm om kleine
-                    dingen aan te passen om voor hen het proces van opdrachten of invoices sneller en gemakkelijker in
-                    te kunnen geven
+                    Ik heb dubbele klantgegevens in een gefuseerde database opgeschoond en het CRM-systeem aangepast
+                    voor snellere verwerking van opdrachten en facturen.
                 </p>
             </div>
             <a href="https://tombroucke.be/" target="_blank">
@@ -30,6 +27,45 @@
     </div>
 
     <SectionBreak />
+    <div class="md:flex" v-if="props.download">
+        <div class="w-[90vw] md:w-[50vw] md:pr-5">
+            <h2>Plus-punten</h2>
+            <div>
+                <p>Gedreven werker:</p>
+                <p>
+                    Ik werk liever s'avonds een uurtje verder dan een nieuwe functie of iets dergelijks te laten liggen
+                    tot de dag erna.
+                </p>
+            </div>
+            <div>
+                <p>Leergierig:</p>
+                <p>Ik leer graag nieuwe dingen of leer graag betere manieren kennen voor iets te doen.</p>
+            </div>
+            <div>
+                <p>Relaxed:</p>
+                <p>
+                    Als ik zeg dat iets af zal zijn, zal ik zo veel mogelijk doen zodat u op 2 geruste oren kunst slapen
+                </p>
+            </div>
+        </div>
+        <div class="w-[90vw] md:w-[50vw] md:pl-5">
+            <h2>Min-puntjes</h2>
+            <div>
+                <p>Dislectisch</p>
+                <p>Ik doe mijn best maar er zitten waarschijnlijk veel schrijffouten in mijn teksten.</p>
+            </div>
+            <div>
+                <p>Niet detail georienteerd</p>
+                <p>Ik maak liever iets die werkt, dan dat het er goed uitziet</p>
+            </div>
+            <div>
+                <p>Solitair</p>
+                <p>Ik geef er de voorkeur aan om zelfstandig te werken in plaats van in een groep.</p>
+            </div>
+        </div>
+    </div>
+    <SectionBreak />
+
     <div>
         <h2>&lt;Education /&gt;</h2>
         <div>
@@ -37,13 +73,9 @@
             <p class="text-xs">2021-heden</p>
             <p>Howest Brugge</p>
             <p>
-                Opleiding tot een innoverende en veelzijdige informaticus met specialisatie full stack-web ontwikkeling,
-                secure software development, web & mobile native apps, blockchain architectuur en development,
-                cybercrime, web- en netwerk pentesten, forensische analyse, malware analyse en reverse engineering.
-                Kennismaking met Big Data, IoT en IT-wetgeving (GDPR). Kortom een stevige basis IT. Eerste jaar hiervan
-                afgewerkt. In september start ik mijn tweede jaar met als keuzetraject Cyber Security Professional: waar
-                ik vooral cybersecurity voor zal organiseren en leren afrekenen met cybercrime. Geslaagd voor het eerste
-                opleidingsjaar.
+                Ik leerde over een breed scala aan IT-disciplines en rond in juni mijn opleiding af, met een
+                specialisatie in Cyber Security Professional, gericht op forensische analyse, malware analyse, pentesten
+                en reverse engineering.
             </p>
         </div>
         <div>
@@ -58,7 +90,7 @@
             <h3><span class="font-bold">Industriele</span> Wetenschappen</h3>
             <p class="text-xs">2012-2015</p>
             <p>Vti Menen</p>
-            <p>
+            <p v-if="!download">
                 We hadden een praktijkgerichte benadering van technologie en engineering, stimuleerde ons om innovatieve
                 oplossingen te ontwikkelen voor complexe industriële uitdagingen.
             </p>
@@ -102,7 +134,7 @@
             <p>Engels</p>
         </div>
     </div>
-    <div class="md:flex">
+    <div class="md:flex" v-if="!props.download">
         <div class="w-[90vw] md:w-[50vw] md:pr-5">
             <h2>Plus-punten</h2>
             <div>
