@@ -1,7 +1,7 @@
 <template>
-        <div class="w-full h-full flex content-around items-center">
-            <div class="md:ml-5 pl-2 w-full">
-                <qrcode-vue :value="url" style="width: 100%; height: auto;" level="H" />
+        <div class="w-full h-full flex content-center items-center">
+            <div class="md:ml-5 pl-2 w-full flex content-center items-center">
+                <qrcode-vue :value="url" class="ml-auto mr-auto" style="width: 100%; height: auto; max-height: 70vh; max-width: 70vh;" level="H" />
             </div>
         </div>
 
