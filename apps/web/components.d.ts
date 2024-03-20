@@ -26,6 +26,7 @@ declare module 'vue' {
     ImageIcon: typeof import('./src/components/Button/ImageIcon.vue')['default']
     ProjectLanguage: typeof import('./src/components/Layout/General/ProjectLanguage.vue')['default']
     ProjectTile: typeof import('./src/components/Layout/Tiles/ProjectTile.vue')['default']
+    Qr: typeof import('./src/components/qr.vue')['default']
     RichtClickMenu: typeof import('./src/components/RichtClickMenu.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

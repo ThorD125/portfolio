@@ -10,6 +10,7 @@ import blog from '@/views/blog.vue';
 import projects from '@/views/projects.vue';
 import console from '@/views/Console.vue';
 import CvToPdf from '@/components/CvToPdf.vue';
+import qr from '@/components/qr.vue';
 
 export const routes: RouteRecordRaw[] = [
     {
@@ -68,5 +69,9 @@ export const routes: RouteRecordRaw[] = [
         alias: ['/project', '/projects', '/project', '/project/'],
         name: 'projects',
         component: projects,
+    },
+    {
+        path: '/qr',
+        component: qr,
     },
 ];
