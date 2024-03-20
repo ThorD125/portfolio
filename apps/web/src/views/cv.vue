@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <SectionBreak />
+    <SectionBreak v-if="props.download"/>
     <div class="md:flex" v-if="props.download">
         <div class="w-[90vw] md:w-[50vw] md:pr-5">
             <h2>Plus-punten</h2>
