@@ -70,7 +70,7 @@
         <h2>&lt;Education /&gt;</h2>
         <div>
             <h3><span class="font-bold">Bachelor toegepaste informatica</span> - Cyber Security Professional</h3>
-            <p class="text-xs">2021-heden</p>
+            <p class="text-xs">2021-2024</p>
             <p>Howest Brugge</p>
             <p>
                 Ik leerde over een breed scala aan IT-disciplines en rond in juni mijn opleiding af, met een
@@ -80,7 +80,7 @@
         </div>
         <div>
             <h3><span class="font-bold">Multimedia</span> - Optie Visueel</h3>
-            <p class="text-xs">2015-2021</p>
+            <p class="text-xs">2018-2021</p>
             <p>Athena Heule</p>
             <p>https://www.athena-school.be/onze-school/campus-heule</p>
             <p>We leerden vooral gebruik maken van verschillende adobe programma's en websites maken.</p>
@@ -88,7 +88,7 @@
         </div>
         <div>
             <h3><span class="font-bold">Industriele</span> Wetenschappen</h3>
-            <p class="text-xs">2012-2015</p>
+            <p class="text-xs">2015-2018</p>
             <p>Vti Menen</p>
             <p v-if="!download">
                 We hadden een praktijkgerichte benadering van technologie en engineering, stimuleerde ons om innovatieve
