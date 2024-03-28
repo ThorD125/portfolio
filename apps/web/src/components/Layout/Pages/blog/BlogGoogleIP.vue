@@ -1,6 +1,4 @@
 <template>
-    <h3>Introduction:</h3>
-
     <p>
         In the ever-evolving landscape of technology, one thing is certain: the Internet is constantly changing,
         adapting, and growing. One of the most significant developments in recent years has been the transition from
